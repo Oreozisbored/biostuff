@@ -1584,6 +1584,47 @@ body {
     background-color: var(--border-color);
 }
 
+/* Flashcards mastered stats styling */
+.flashcard-stats-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 4px;
+    font-size: 0.85rem;
+}
+
+#fc-mastered-count {
+    color: var(--accent-hover);
+    font-weight: 600;
+}
+
+.flashcard-stats-row .settings-reset-btn {
+    margin-top: 0;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+}
+
+/* Quiz High Score card styling */
+.high-score {
+    font-size: 0.8rem;
+    color: #10b981; /* Green color for high score */
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: rgba(16, 185, 129, 0.05);
+    border: 1px solid rgba(16, 185, 129, 0.15);
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.high-score i {
+    font-size: 0.85rem;
+}
+
 /* ==========================================
    Custom Minimal Scrollbars
    ========================================== */

@@ -546,10 +546,28 @@ async function initFlashcards() {
             select.appendChild(opt);
         });
         
+        // Restore last selected chapter from localStorage
+        const savedChapter = localStorage.getItem('bio_flashcard_chapter') || 'all';
+        select.value = savedChapter;
+        
         // Add dropdown change listener
         select.addEventListener('change', () => {
+            localStorage.setItem('bio_flashcard_chapter', select.value);
             loadFlashcardDeck(select.value);
         });
+
+        // Reset progress button listener
+        const resetProgressBtn = document.getElementById('fc-reset-mastered-btn');
+        if (resetProgressBtn) {
+            resetProgressBtn.addEventListener('click', () => {
+                if (confirm('Are you sure you want to reset your flashcard progress? This will clear all mastered terms.')) {
+                    localStorage.removeItem('bio_mastered_terms');
+                    updateMasteredStats();
+                    // Reload current deck to update visual checkmarks
+                    loadFlashcardDeck(select.value);
+                }
+            });
+        }
         
         // Card click triggers flip
         const card = document.getElementById('flashcard-card');
@@ -567,8 +585,8 @@ async function initFlashcards() {
         document.getElementById('fc-btn-good').addEventListener('click', () => handleFlashcardFeedback('good'));
         document.getElementById('fc-btn-easy').addEventListener('click', () => handleFlashcardFeedback('easy'));
         
-        // Load initial deck (all)
-        loadFlashcardDeck('all');
+        // Load initial deck
+        loadFlashcardDeck(select.value);
         
     } catch (err) {
         console.error('Failed to initialize flashcards:', err);
@@ -587,6 +605,7 @@ function loadFlashcardDeck(chapterFilter) {
     
     currentCardIndex = 0;
     showFlashcard(currentCardIndex);
+    updateMasteredStats();
 }
 
 function showFlashcard(index) {
@@ -615,7 +634,17 @@ function showFlashcard(index) {
     }
     
     const fc = activeFlashcards[index];
-    document.getElementById('fc-term').textContent = fc.term;
+    
+    // Read mastered list from localStorage and add double checkmark icon if term is mastered
+    const mastered = JSON.parse(localStorage.getItem('bio_mastered_terms') || '[]');
+    const isMastered = mastered.includes(fc.term);
+    
+    if (isMastered) {
+        document.getElementById('fc-term').innerHTML = `${fc.term} <i class="fa-solid fa-check-double" style="color:var(--accent-hover); font-size:1.3rem; margin-left: 6px;" title="Mastered"></i>`;
+    } else {
+        document.getElementById('fc-term').textContent = fc.term;
+    }
+    
     document.getElementById('fc-definition').textContent = fc.definition;
     
     const chapterName = fc.chapter || 'Root';
@@ -634,9 +663,15 @@ function revealFlashcardAnswer() {
 }
 
 function handleFlashcardFeedback(quality) {
+    const currentCard = activeFlashcards[currentCardIndex];
+    let mastered = JSON.parse(localStorage.getItem('bio_mastered_terms') || '[]');
+
     if (quality === 'again') {
+        // Remove from mastered list if marked "Again"
+        mastered = mastered.filter(t => t !== currentCard.term);
+        localStorage.setItem('bio_mastered_terms', JSON.stringify(mastered));
+
         // Spaced repetition behavior: insert the current card back into the deck 3 cards later (or at the end if the deck is small)
-        const currentCard = activeFlashcards[currentCardIndex];
         // Remove card from current position
         activeFlashcards.splice(currentCardIndex, 1);
         
@@ -649,16 +684,34 @@ function handleFlashcardFeedback(quality) {
             currentCardIndex = 0; // wrap around
         }
     } else {
-        // 'good' or 'easy': card is learned, move to next card
+        // 'good' or 'easy': mark as mastered and advance
+        if (!mastered.includes(currentCard.term)) {
+            mastered.push(currentCard.term);
+            localStorage.setItem('bio_mastered_terms', JSON.stringify(mastered));
+        }
         currentCardIndex++;
     }
     
+    updateMasteredStats();
+
     // Check if we finished the deck
     if (currentCardIndex >= activeFlashcards.length) {
         alertDeckCompletion();
     } else {
         showFlashcard(currentCardIndex);
     }
+}
+
+// Calculate and render mastered terminology statistics
+function updateMasteredStats() {
+    const countSpan = document.getElementById('fc-mastered-count');
+    if (!countSpan) return;
+
+    const mastered = JSON.parse(localStorage.getItem('bio_mastered_terms') || '[]');
+    const total = activeFlashcards.length;
+    const masteredCount = activeFlashcards.filter(fc => mastered.includes(fc.term)).length;
+
+    countSpan.innerHTML = `<i class="fa-solid fa-check-double"></i> Mastered in Deck: <strong>${masteredCount} / ${total}</strong> terms`;
 }
 
 function alertDeckCompletion() {
@@ -745,15 +798,23 @@ function renderQuizSelection() {
     const grid = document.getElementById('quiz-list-grid');
     grid.innerHTML = '';
     
+    const scores = JSON.parse(localStorage.getItem('bio_quiz_scores') || '{}');
+
     // quizzesData should contain Test 1, Test 2, ... Test 10
     Object.keys(quizzesData).forEach(testName => {
         const questionsList = quizzesData[testName];
+        const savedScore = scores[testName];
         
+        const scoreHtml = savedScore !== undefined 
+            ? `<div class="high-score"><i class="fa-solid fa-trophy"></i> High Score: <strong>${savedScore} / ${questionsList.length}</strong> (${Math.round(savedScore/questionsList.length*100)}%)</div>` 
+            : '<div class="high-score" style="color:var(--text-muted); background:none; border-color:var(--border-color);"><i class="fa-regular fa-star"></i> No previous attempts</div>';
+
         const card = document.createElement('div');
         card.className = 'quiz-card';
         card.innerHTML = `
             <h3>${testName}</h3>
             <p>Topics: Comprehensive biology practice exam testing cellular life, chemistry, genetics, and ecology.</p>
+            ${scoreHtml}
             <p><strong>${questionsList.length} Questions</strong> • Multiple Choice</p>
             <div class="quiz-card-btn">Start Test</div>
         `;
@@ -891,6 +952,14 @@ function showQuizResults() {
     const totalQuestions = currentQuizQuestions.length;
     const percentage = Math.round((quizScore / totalQuestions) * 100);
     
+    // Save high score to localStorage
+    const scores = JSON.parse(localStorage.getItem('bio_quiz_scores') || '{}');
+    const prevScore = scores[currentQuizName] || 0;
+    if (quizScore > prevScore) {
+        scores[currentQuizName] = quizScore;
+        localStorage.setItem('bio_quiz_scores', JSON.stringify(scores));
+    }
+
     document.getElementById('quiz-final-score').textContent = `${quizScore} / ${totalQuestions}`;
     document.getElementById('quiz-final-percent').textContent = `${percentage}%`;
     
