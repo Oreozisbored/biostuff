@@ -15,5 +15,4 @@ desktop.ini
 # IDEs and local workspace caches
 .idea/
 .vscode/
-.obsidian/workspace.json
-.obsidian/workspace
+.obsidian/
