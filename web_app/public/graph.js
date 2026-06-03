@@ -62,12 +62,12 @@ class ForceGraph {
     async loadGraphData() {
         try {
             // Load custom colors from graph.json
-            const configResponse = await fetch('/api/graph-config');
+            const configResponse = await fetch('api/graph-config.json');
             const graphConfig = await configResponse.json();
             this.colorRules = graphConfig.colorGroups || [];
 
             // Load graph layout mapping (nodes, links)
-            const response = await fetch('/api/graph');
+            const response = await fetch('api/graph.json');
             const data = await response.json();
             
             this.nodesData = data.nodes;

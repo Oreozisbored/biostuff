@@ -16,3 +16,6 @@ desktop.ini
 .idea/
 .vscode/
 .obsidian/
+
+# Compiled static JSON database
+web_app/public/api/

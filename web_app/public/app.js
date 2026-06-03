@@ -30,7 +30,15 @@ const elements = {
 };
 
 // Initialize Application
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load notes map first so loadNote can resolve titles to paths
+    try {
+        const response = await fetch('api/notes_map.json');
+        AppState.notesMap = await response.json();
+    } catch (err) {
+        console.error('Failed to load notes map:', err);
+    }
+
     setupSearch();
     setupGraphToggle();
     setupTabSwitching(); // Initialize tabs click listeners
@@ -72,7 +80,7 @@ function setupGraphToggle() {
 // Fetch directory tree from server and render
 async function loadDirectoryTree() {
     try {
-        const response = await fetch('/api/tree');
+        const response = await fetch('api/tree.json');
         const treeData = await response.json();
         elements.fileTree.innerHTML = '';
         renderFileTree(treeData, elements.fileTree);
@@ -166,12 +174,21 @@ async function loadNote(notePathOrName, pushToHistory = true) {
     // Switch to notes tab automatically so the note is visible
     switchTab('notes');
 
-    let url = '/api/note';
+    let notePath = '';
     if (notePathOrName.endsWith('.md')) {
-        url += `?path=${encodeURIComponent(notePathOrName)}`;
+        notePath = notePathOrName;
     } else {
-        url += `?name=${encodeURIComponent(notePathOrName)}`;
+        const lowerName = notePathOrName.toLowerCase();
+        notePath = AppState.notesMap ? AppState.notesMap[lowerName] : null;
+        if (!notePath) {
+            console.warn(`Could not resolve note name: ${notePathOrName}`);
+            // Fallback: guess path
+            notePath = notePathOrName + '.md';
+        }
     }
+
+    // Split by / and URI-encode each segment, then join back to preserve folder structure
+    const url = 'api/note/' + notePath.split('/').map(encodeURIComponent).join('/') + '.json';
 
     try {
         const response = await fetch(url);
@@ -408,6 +425,7 @@ function renderBacklinks(backlinks) {
 
 // Search execution and rendering
 let searchTimeout;
+let searchIndex = null;
 function setupSearch() {
     elements.searchInput.addEventListener('input', () => {
         clearTimeout(searchTimeout);
@@ -424,8 +442,11 @@ function setupSearch() {
         // Debounce search requests
         searchTimeout = setTimeout(async () => {
             try {
-                const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-                const results = await response.json();
+                if (!searchIndex) {
+                    const response = await fetch('api/search_index.json');
+                    searchIndex = await response.json();
+                }
+                const results = performClientSideSearch(query);
                 renderSearchResults(results);
                 
                 // Hide File Explorer panel and show Search Results
@@ -436,6 +457,36 @@ function setupSearch() {
             }
         }, 150);
     });
+}
+
+function performClientSideSearch(query) {
+    const results = [];
+    const lowerQuery = query.toLowerCase();
+
+    for (const item of searchIndex) {
+        const titleMatch = item.name.toLowerCase().includes(lowerQuery);
+        const contentIndex = item.content.toLowerCase().indexOf(lowerQuery);
+
+        if (titleMatch || contentIndex !== -1) {
+            // Generate a small preview snippet if it matched in content
+            let snippet = '';
+            if (contentIndex !== -1) {
+                const start = Math.max(0, contentIndex - 30);
+                const end = Math.min(item.content.length, contentIndex + query.length + 50);
+                snippet = '...' + item.content.substring(start, end).replace(/\r?\n/g, ' ') + '...';
+            } else {
+                snippet = item.content.substring(0, 80).replace(/\r?\n/g, ' ') + '...';
+            }
+
+            results.push({
+                name: item.name,
+                path: item.path,
+                titleMatch: titleMatch,
+                snippet: snippet
+            });
+        }
+    }
+    return results;
 }
 
 function renderSearchResults(results) {
@@ -530,7 +581,7 @@ async function initFlashcards() {
     flashcardsInitialized = true;
     
     try {
-        const response = await fetch('/api/flashcards');
+        const response = await fetch('api/flashcards.json');
         allFlashcards = await response.json();
         
         // Populate chapter dropdown
@@ -785,7 +836,7 @@ async function initQuizzes() {
     document.getElementById('quiz-return-btn').addEventListener('click', showQuizSelectionScreen);
 
     try {
-        const response = await fetch('/api/quiz');
+        const response = await fetch('api/quiz.json');
         quizzesData = await response.json();
         
         renderQuizSelection();
