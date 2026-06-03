@@ -1,0 +1,12 @@
+{
+  "name": "web-obsidian",
+  "version": "1.0.0",
+  "description": "Web version of the Obsidian Biology study vault",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

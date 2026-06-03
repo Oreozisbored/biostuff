@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Web - Biology Study Vault</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div id="app-container">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <div class="vault-title">
+                    <i class="fa-solid fa-dna logo-icon"></i>
+                    <span>Biology Vault</span>
+                </div>
+            </div>
+
+            <!-- Search Box (always visible at top) -->
+            <div class="sidebar-search-box">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search files or contents..." autocomplete="off">
+                    <i class="fa-solid fa-magnifying-glass search-box-icon"></i>
+                </div>
+            </div>
+
+            <!-- Combined Scrollable Content Area -->
+            <div id="sidebar-content-area">
+                <!-- File Explorer (active by default) -->
+                <div id="explorer-panel">
+                    <div id="file-tree" class="file-tree-container">
+                        <div class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading files...</div>
+                    </div>
+                </div>
+
+                <!-- Search Results (hidden by default) -->
+                <div id="search-results-panel" style="display: none;">
+                    <div id="search-results" class="search-results-list"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <!-- Top Navigation Tab bar -->
+            <header id="workspace-header">
+                <div id="tab-bar">
+                    <button class="tab active" id="tab-notes-btn">
+                        <i class="fa-regular fa-file-lines tab-icon"></i>
+                        <span id="tab-title">Notes</span>
+                    </button>
+                    <button class="tab" id="tab-flashcards-btn">
+                        <i class="fa-solid fa-layer-group tab-icon"></i>
+                        <span>Flashcards</span>
+                    </button>
+                    <button class="tab" id="tab-quizzes-btn">
+                        <i class="fa-solid fa-graduation-cap tab-icon"></i>
+                        <span>Practice Tests</span>
+                    </button>
+                </div>
+                <div class="header-actions">
+                    <button id="home-btn" class="action-btn" title="Go to Biology MOC"><i class="fa-solid fa-house"></i> Home</button>
+                    <button id="fullscreen-graph-toggle" class="action-btn" title="Toggle Graph Panel"><i class="fa-solid fa-circle-nodes"></i> Toggle Graph</button>
+                </div>
+            </header>
+
+            <!-- Note Viewer Split-screen Container -->
+            <div id="workspace-body" class="notes-active">
+                <!-- Left Pane: The Markdown Rendered Content -->
+                <div id="note-pane" class="workspace-pane">
+                    <div id="note-content-container">
+                        <!-- Frontmatter Metadata Block -->
+                        <div id="note-metadata" class="metadata-container" style="display:none;"></div>
+                        
+                        <!-- Main Note Heading -->
+                        <h1 id="note-title">Welcome to the Biology Vault</h1>
+                        
+                        <!-- Rendered HTML Content -->
+                        <article id="note-body" class="markdown-preview">
+                            <p>Select a note from the file explorer, click a search result, or navigate using the interactive graph to begin studying.</p>
+                        </article>
+
+                        <!-- Backlinks Section -->
+                        <section id="note-backlinks-section" class="backlinks-section" style="display:none;">
+                            <div class="backlinks-header">
+                                <i class="fa-solid fa-link"></i> Backlinks
+                            </div>
+                            <div id="note-backlinks-list" class="backlinks-list"></div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- Right Pane: The Graph View (Resizable/Collapsible) - Inactive by default -->
+                <div id="graph-pane" class="workspace-pane">
+                    <div class="pane-header">
+                        <span>Interactive Graph View</span>
+                        <div class="graph-legend">
+                            <span class="legend-item"><span class="legend-dot moc-dot"></span> MOCs</span>
+                            <span class="legend-item"><span class="legend-dot lesson-dot"></span> Lessons</span>
+                            <span class="legend-item"><span class="legend-dot term-dot"></span> Terms</span>
+                        </div>
+                    </div>
+                    <div id="graph-container">
+                        <svg id="graph-svg"></svg>
+                        
+                        <!-- Physics Settings Overlay -->
+                        <div id="graph-settings-panel" class="graph-settings-overlay" style="display: none;">
+                            <div class="settings-header">
+                                <span><i class="fa-solid fa-sliders"></i> Graph Settings</span>
+                                <button id="close-settings-btn" class="close-settings-btn" title="Close"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+                            <div class="settings-body">
+                                <div class="setting-item">
+                                    <div class="setting-label-row">
+                                        <label for="slider-repel">Repel Force</label>
+                                        <span id="val-repel">-200</span>
+                                    </div>
+                                    <input type="range" id="slider-repel" min="-500" max="-50" step="10" value="-200">
+                                </div>
+                                <div class="setting-item">
+                                    <div class="setting-label-row">
+                                        <label for="slider-link-dist">Link Distance</label>
+                                        <span id="val-link-dist">80</span>
+                                    </div>
+                                    <input type="range" id="slider-link-dist" min="30" max="250" step="5" value="80">
+                                </div>
+                                <div class="setting-item">
+                                    <div class="setting-label-row">
+                                        <label for="slider-collision">Collision Gap</label>
+                                        <span id="val-collision">24</span>
+                                    </div>
+                                    <input type="range" id="slider-collision" min="10" max="50" step="2" value="24">
+                                </div>
+                                <div class="setting-item">
+                                    <div class="setting-label-row">
+                                        <label for="slider-node-size">Node Size Multiplier</label>
+                                        <span id="val-node-size">1.0</span>
+                                    </div>
+                                    <input type="range" id="slider-node-size" min="0.5" max="2.5" step="0.1" value="1.0">
+                                </div>
+                                <div class="setting-item">
+                                    <label class="toggle-container">
+                                        <input type="checkbox" id="checkbox-show-labels" checked>
+                                        <span class="toggle-label">Show Labels by Default</span>
+                                    </label>
+                                </div>
+                                <button id="reset-physics-btn" class="settings-reset-btn">Reset Defaults</button>
+                            </div>
+                        </div>
+
+                        <div class="graph-controls">
+                            <button id="graph-settings-btn" class="graph-ctrl-btn" title="Graph Settings"><i class="fa-solid fa-gear"></i></button>
+                            <button id="zoom-in-btn" class="graph-ctrl-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
+                            <button id="zoom-out-btn" class="graph-ctrl-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
+                            <button id="zoom-fit-btn" class="graph-ctrl-btn" title="Recenter Graph"><i class="fa-solid fa-arrows-to-eye"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flashcards Study Pane -->
+                <div id="flashcards-pane" class="workspace-pane">
+                    <div class="study-container">
+                        <div class="study-header">
+                            <h2><i class="fa-solid fa-layer-group"></i> Active Recall Flashcards</h2>
+                            <div class="filter-box">
+                                <label for="flashcard-chapter-select">Study Chapter:</label>
+                                <select id="flashcard-chapter-select">
+                                    <option value="all">-- All Chapters --</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Card Deck Arena -->
+                        <div class="card-deck-container">
+                            <div id="flashcard-card" class="flashcard">
+                                <div class="flashcard-inner">
+                                    <!-- Card Front -->
+                                    <div class="flashcard-front">
+                                        <div class="card-meta" id="fc-meta-front">01 - Scientific Method</div>
+                                        <div class="card-term" id="fc-term">Aneuploidy</div>
+                                        <div class="card-instruction">Click card or "Show Answer" to flip</div>
+                                    </div>
+                                    <!-- Card Back -->
+                                    <div class="flashcard-back">
+                                        <div class="card-meta" id="fc-meta-back">01 - Scientific Method</div>
+                                        <div class="card-definition" id="fc-definition">The condition of having an abnormal number of chromosomes in a cell, such as trisomy or monosomy.</div>
+                                        <div class="card-instruction">How well did you know this?</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Flashcard Controls -->
+                        <div class="flashcard-controls">
+                            <button id="fc-show-btn" class="study-btn primary-btn">Show Answer</button>
+                            <div id="fc-feedback-btns" class="feedback-btn-group" style="display:none;">
+                                <button id="fc-btn-again" class="study-btn red-btn" title="Show again soon">Again</button>
+                                <button id="fc-btn-good" class="study-btn green-btn" title="Felt normal to recall">Good</button>
+                                <button id="fc-btn-easy" class="study-btn blue-btn" title="Very easy, delay review">Easy</button>
+                            </div>
+                        </div>
+                        <div class="deck-progress">
+                            <span id="fc-progress-text">Card 0 of 0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quizzes Practice Pane -->
+                <div id="quizzes-pane" class="workspace-pane">
+                    <!-- Quiz Selection Screen -->
+                    <div id="quiz-selection-screen" class="study-container">
+                        <div class="study-header">
+                            <h2><i class="fa-solid fa-graduation-cap"></i> Practice Exam Center</h2>
+                            <p>Test your knowledge with 10 unit-aligned practice exams. Each test contains 25 multiple-choice questions with detailed explanations.</p>
+                        </div>
+                        <div class="quiz-grid" id="quiz-list-grid">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Active Quiz Arena -->
+                    <div id="quiz-arena-screen" class="study-container" style="display:none;">
+                        <div class="quiz-arena-header">
+                            <button id="quiz-back-btn" class="action-btn"><i class="fa-solid fa-arrow-left"></i> Exit Test</button>
+                            <div class="quiz-progress-hud">
+                                <span id="quiz-title-hud">Practice Test 1</span>
+                                <span id="quiz-score-hud">Score: 0 / 25</span>
+                            </div>
+                        </div>
+
+                        <div class="quiz-question-box">
+                            <div class="question-number" id="q-number">Question 1 of 25</div>
+                            <div class="question-text" id="q-text">What is the correct sequence of steps in the scientific method?</div>
+                            
+                            <!-- Options list -->
+                            <div class="options-container" id="q-options">
+                                <!-- Option buttons will be generated here -->
+                            </div>
+
+                            <!-- Correction / Explanation block -->
+                            <div class="explanation-box" id="q-explanation" style="display:none;">
+                                <div class="explanation-title" id="q-explanation-title"><i class="fa-solid fa-circle-check"></i> Correct!</div>
+                                <div class="explanation-text" id="q-explanation-text">Explanation content...</div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-controls">
+                            <button id="quiz-next-btn" class="study-btn primary-btn" disabled>Next Question</button>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Results Summary Screen -->
+                    <div id="quiz-results-screen" class="study-container" style="display:none;">
+                        <div class="results-box">
+                            <div class="results-trophy"><i class="fa-solid fa-trophy"></i></div>
+                            <h2>Quiz Completed!</h2>
+                            <div class="results-score" id="quiz-final-score">22 / 25</div>
+                            <div class="results-percent" id="quiz-final-percent">88%</div>
+                            <div class="results-eval" id="quiz-final-eval">Excellent job! You are ready for the final.</div>
+                            <button id="quiz-restart-btn" class="study-btn primary-btn">Retry Exam</button>
+                            <button id="quiz-return-btn" class="study-btn secondary-btn">Return to Test List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- External JavaScript Engines -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Custom Application Logic -->
+    <script src="app.js"></script>
+    <script src="graph.js"></script>
+</body>
+</html>

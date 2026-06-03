@@ -1,0 +1,19 @@
+# Node dependencies
+web_app/node_modules/
+node_modules/
+
+# Agentic cli and gemini cli logs/caches
+.antigravitycli/
+.gemini/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and local workspace caches
+.idea/
+.vscode/
+.obsidian/workspace.json
+.obsidian/workspace

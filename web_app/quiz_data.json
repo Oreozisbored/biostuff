@@ -1,0 +1,2772 @@
+{
+  "Test 1": [
+    {
+      "question": "What is the correct sequence of steps in the scientific method?",
+      "options": [
+        "Hypothesis -> Experiment -> Observation -> Analysis",
+        "Observation -> Hypothesis -> Experiment -> Analysis",
+        "Experiment -> Analysis -> Hypothesis -> Observation",
+        "Analysis -> Observation -> Experiment -> Hypothesis"
+      ],
+      "correct": 1,
+      "explanation": "The scientific method begins with an observation, which leads to a hypothesis, which is then tested by an experiment and followed by analysis."
+    },
+    {
+      "question": "A testable and falsifiable explanation for an observation is called a:",
+      "options": [
+        "Theory",
+        "Hypothesis",
+        "Conclusion",
+        "Data point"
+      ],
+      "correct": 1,
+      "explanation": "A hypothesis must be testable through experimentation and falsifiable, meaning it can be proven wrong."
+    },
+    {
+      "question": "In a controlled experiment, the variable that is measured in response to changes is the:",
+      "options": [
+        "Independent variable",
+        "Dependent variable",
+        "Controlled variable",
+        "Constant"
+      ],
+      "correct": 1,
+      "explanation": "The dependent variable is the factor measured or observed to see how it responds to the independent variable."
+    },
+    {
+      "question": "Which of the following is an example of quantitative data?",
+      "options": [
+        "The color of the flower",
+        "The smell of the gas",
+        "The height of the plant (15 cm)",
+        "The texture of the leaf"
+      ],
+      "correct": 2,
+      "explanation": "Quantitative data contains numerical values and measurements, such as height in centimeters."
+    },
+    {
+      "question": "How does a scientific theory differ from a hypothesis?",
+      "options": [
+        "A theory is a guess, while a hypothesis is proven",
+        "A theory is a broad explanation supported by massive evidence, while a hypothesis is narrow",
+        "A theory cannot be tested",
+        "A hypothesis represents absolute certainty"
+      ],
+      "correct": 1,
+      "explanation": "A scientific theory is a comprehensive, widely accepted explanation supported by extensive empirical evidence, whereas a hypothesis is a narrow, initial explanation."
+    },
+    {
+      "question": "What type of logic derives general principles from a large number of specific observations?",
+      "options": [
+        "Deductive reasoning",
+        "Inductive reasoning",
+        "Abductive reasoning",
+        "Reductive reasoning"
+      ],
+      "correct": 1,
+      "explanation": "Inductive reasoning builds general premises from specific observations (e.g., observing many cells to form cell theory)."
+    },
+    {
+      "question": "Deductive reasoning is characterized by:",
+      "options": [
+        "Moving from general premises to predict specific results",
+        "Collecting specific data to form a hypothesis",
+        "Rejecting a hypothesis before testing",
+        "Performing uncontrolled trials"
+      ],
+      "correct": 0,
+      "explanation": "Deductive reasoning applies general principles to predict specific outcomes ('If all life is cellular, and humans are alive, humans are cellular')."
+    },
+    {
+      "question": "Which microscope is best for viewing the three-dimensional surface details of a non-living specimen?",
+      "options": [
+        "Light Microscope",
+        "Transmission Electron Microscope (TEM)",
+        "Scanning Electron Microscope (SEM)",
+        "Phase-Contrast Microscope"
+      ],
+      "correct": 2,
+      "explanation": "Scanning Electron Microscopes (SEM) scan the surface of specimens with an electron beam to create detailed 3D surface images."
+    },
+    {
+      "question": "Water's polar nature is caused by:",
+      "options": [
+        "Equal sharing of electrons",
+        "The high electronegativity of oxygen relative to hydrogen",
+        "Ionic bonding between H and O",
+        "The linear arrangement of its atoms"
+      ],
+      "correct": 1,
+      "explanation": "Oxygen is highly electronegative and pulls shared electrons closer, creating a partial negative charge on oxygen and partial positive charges on hydrogen."
+    },
+    {
+      "question": "Which bond is formed between the partial positive charge of a hydrogen in one water molecule and the partial negative charge of an oxygen in another?",
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Hydrogen bond",
+        "Peptide bond"
+      ],
+      "correct": 2,
+      "explanation": "Hydrogen bonds are attractive forces between polar molecules, specifically involving hydrogen atoms bonded to electronegative atoms."
+    },
+    {
+      "question": "Water sticking to other water molecules is called:",
+      "options": [
+        "Adhesion",
+        "Cohesion",
+        "Capillary action",
+        "Surface tension"
+      ],
+      "correct": 1,
+      "explanation": "Cohesion is the attraction between molecules of the same substance, which gives water high surface tension."
+    },
+    {
+      "question": "Water climbing up vascular tissue in plants is driven by adhesion and cohesion in a process called:",
+      "options": [
+        "Transpiration pull",
+        "Osmosis",
+        "Capillary action",
+        "Active transport"
+      ],
+      "correct": 2,
+      "explanation": "Capillary action is the movement of water up narrow tubes, driven by adhesion to the tube walls and cohesion between water molecules."
+    },
+    {
+      "question": "Why does ice float on water?",
+      "options": [
+        "Ice has more kinetic energy",
+        "Hydrogen bonds expand, locking water molecules into a spacious crystalline lattice when frozen",
+        "Liquid water is colder",
+        "Covalent bonds contract in ice"
+      ],
+      "correct": 1,
+      "explanation": "As water freezes, hydrogen bonds hold molecules in a rigid, open lattice, making ice less dense than liquid water."
+    },
+    {
+      "question": "Which property of water allows it to absorb large amounts of heat before its temperature rises?",
+      "options": [
+        "Universal solvent",
+        "High specific heat",
+        "Cohesion",
+        "Low density of solid phase"
+      ],
+      "correct": 1,
+      "explanation": "Water has a high specific heat because energy must first break hydrogen bonds before the molecules can move faster and increase temperature."
+    },
+    {
+      "question": "A substance that increases the H+ concentration of a solution is classified as:",
+      "options": [
+        "A base",
+        "An acid",
+        "A buffer",
+        "A salt"
+      ],
+      "correct": 1,
+      "explanation": "Acids donate hydrogen ions ($H^+$) in solution, lowering the pH."
+    },
+    {
+      "question": "The pH of a neutral solution is:",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correct": 2,
+      "explanation": "A pH of 7 is neutral, representing equal concentrations of $H^+$ and $OH^-$ ions."
+    },
+    {
+      "question": "A solution with a pH of 4 is how many times more acidic than a solution with a pH of 6?",
+      "options": [
+        "2 times",
+        "10 times",
+        "100 times",
+        "1000 times"
+      ],
+      "correct": 2,
+      "explanation": "The pH scale is logarithmic. A change of 2 units (6 to 4) represents a 10^2 = 100-fold increase in H+ concentration."
+    },
+    {
+      "question": "What compounds resist changes in pH by absorbing or donating H+ ions?",
+      "options": [
+        "Acids",
+        "Bases",
+        "Buffers",
+        "Solvents"
+      ],
+      "correct": 2,
+      "explanation": "Buffers minimize pH shifts by binding excess H+ when acidity rises, or releasing H+ when alkalinity rises."
+    },
+    {
+      "question": "What is the primary element that forms the backbone of all organic molecules?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon",
+        "Hydrogen"
+      ],
+      "correct": 2,
+      "explanation": "Carbon can form four stable covalent bonds, allowing it to build complex, stable molecular structures."
+    },
+    {
+      "question": "What chemical reaction links monomers into polymers by removing a water molecule?",
+      "options": [
+        "Hydrolysis",
+        "Dehydration synthesis",
+        "Phosphorylation",
+        "Oxidation"
+      ],
+      "correct": 1,
+      "explanation": "Dehydration synthesis links monomers into polymers, releasing a water molecule in the process."
+    },
+    {
+      "question": "What chemical reaction breaks down polymers into monomers by adding a water molecule?",
+      "options": [
+        "Dehydration synthesis",
+        "Hydrolysis",
+        "Hydrogenation",
+        "Glycolysis"
+      ],
+      "correct": 1,
+      "explanation": "Hydrolysis breaks covalent bonds in polymers by adding water (hydro = water, lysis = split)."
+    },
+    {
+      "question": "Which of the following is a monomer of carbohydrates?",
+      "options": [
+        "Amino acid",
+        "Nucleotide",
+        "Monosaccharide",
+        "Fatty acid"
+      ],
+      "correct": 2,
+      "explanation": "Monosaccharides (like glucose) are the single sugar monomers that build carbohydrates."
+    },
+    {
+      "question": "Which carbohydrate acts as structural support in plant cell walls?",
+      "options": [
+        "Starch",
+        "Glycogen",
+        "Cellulose",
+        "Chitin"
+      ],
+      "correct": 2,
+      "explanation": "Cellulose is a rigid, insoluble polysaccharide that makes up the structural cell walls of plants."
+    },
+    {
+      "question": "Which lipid is the primary component of cell membranes?",
+      "options": [
+        "Triglycerides",
+        "Phospholipids",
+        "Cholesterol",
+        "Steroids"
+      ],
+      "correct": 1,
+      "explanation": "Phospholipids are amphipathic molecules that arrange into a bilayer, forming the core matrix of cell membranes."
+    },
+    {
+      "question": "Unsaturated fatty acids are liquid at room temperature because:",
+      "options": [
+        "They have no carbon double bonds",
+        "Carbon-carbon double bonds create kinks that prevent tight packing",
+        "They have shorter carbon chains",
+        "They are highly polar"
+      ],
+      "correct": 1,
+      "explanation": "Double bonds in unsaturated fatty acids create kinks in the carbon tail, preventing molecules from packing closely together into a solid."
+    }
+  ],
+  "Test 2": [
+    {
+      "question": "What linkage holds amino acids together to form a polypeptide chain?",
+      "options": [
+        "Glycosidic linkage",
+        "Ester bond",
+        "Peptide bond",
+        "Phosphodiester bond"
+      ],
+      "correct": 2,
+      "explanation": "Peptide bonds are covalent bonds formed between the carboxyl group of one amino acid and the amino group of another during translation."
+    },
+    {
+      "question": "The folding of alpha-helices and beta-sheets in proteins represents which level of structure?",
+      "options": [
+        "Primary structure",
+        "Secondary structure",
+        "Tertiary structure",
+        "Quaternary structure"
+      ],
+      "correct": 1,
+      "explanation": "Secondary structure is stabilized by hydrogen bonds along the polypeptide backbone, creating coils (alpha helices) and folds (beta sheets)."
+    },
+    {
+      "question": "Tertiary structure of a protein is determined by interactions between:",
+      "options": [
+        "Peptide backbones",
+        "Valence electrons only",
+        "Amino acid side chains (R-groups)",
+        "Double helix strands"
+      ],
+      "correct": 2,
+      "explanation": "Tertiary structure is the overall 3D fold of a single polypeptide, governed by hydrophobic, ionic, covalent, and hydrogen bond interactions between R-groups."
+    },
+    {
+      "question": "What happens when a protein undergoes denaturation?",
+      "options": [
+        "It breaks down into single amino acids",
+        "It loses its 3D shape and biological function",
+        "It synthesizes a complementary strand",
+        "It forms a quaternary complex"
+      ],
+      "correct": 1,
+      "explanation": "Denaturation disrupts secondary, tertiary, and quaternary structures due to heat, pH, or salt changes, rendering the protein inactive."
+    },
+    {
+      "question": "The monomers that build nucleic acids are:",
+      "options": [
+        "Amino acids",
+        "Nucleotides",
+        "Monosaccharides",
+        "Glycerols"
+      ],
+      "correct": 1,
+      "explanation": "Nucleotides are the structural monomers of DNA and RNA, composed of a sugar, phosphate, and nitrogenous base."
+    },
+    {
+      "question": "Which base is found in RNA but NOT in DNA?",
+      "options": [
+        "Thymine",
+        "Uracil",
+        "Adenine",
+        "Cytosine"
+      ],
+      "correct": 1,
+      "explanation": "Uracil is substituted for Thymine in RNA, pairing with Adenine during transcription and translation."
+    },
+    {
+      "question": "How do enzymes catalyze chemical reactions?",
+      "options": [
+        "By raising activation energy",
+        "By lowering the activation energy barrier",
+        "By increasing the temperature of reactants",
+        "By altering the overall free energy change"
+      ],
+      "correct": 1,
+      "explanation": "Enzymes speed up chemical reactions by lowering the activation energy required to reach the transition state."
+    },
+    {
+      "question": "The specific reactant that binds to an enzyme's active site is the:",
+      "options": [
+        "Inhibitor",
+        "Substrate",
+        "Catalyst",
+        "Product"
+      ],
+      "correct": 1,
+      "explanation": "The substrate is the target molecule that fits into the active site of the enzyme to undergo catalysis."
+    },
+    {
+      "question": "In noncompetitive inhibition, where does the inhibitor bind?",
+      "options": [
+        "The active site",
+        "The allosteric site",
+        "The peptide backbone",
+        "The substrate"
+      ],
+      "correct": 1,
+      "explanation": "Noncompetitive inhibitors bind to an allosteric site away from the active site, changing the enzyme's shape and disabling the active site."
+    },
+    {
+      "question": "What is the primary function of the nucleolus?",
+      "options": [
+        "ATP synthesis",
+        "Ribosome assembly and rRNA synthesis",
+        "Protein folding",
+        "Lipid storage"
+      ],
+      "correct": 1,
+      "explanation": "The nucleolus is a specialized dense region inside the nucleus where ribosomal RNA is transcribed and ribosomes are assembled."
+    },
+    {
+      "question": "Which organelle is responsible for synthesizing lipids, metabolizing carbs, and detoxifying toxins?",
+      "options": [
+        "Rough Endoplasmic Reticulum",
+        "Smooth Endoplasmic Reticulum",
+        "Golgi Apparatus",
+        "Lysosome"
+      ],
+      "correct": 1,
+      "explanation": "The Smooth ER lacks ribosomes and performs lipid synthesis, carbohydrate metabolism, and drug/toxin detoxification."
+    },
+    {
+      "question": "Which organelle is a membrane-bound sac containing digestive enzymes to break down waste?",
+      "options": [
+        "Peroxisome",
+        "Lysosome",
+        "Vacuole",
+        "Golgi vesicle"
+      ],
+      "correct": 1,
+      "explanation": "Lysosomes are acidic sacs containing hydrolytic enzymes that digest macromolecules, worn-out organelles, and debris."
+    },
+    {
+      "question": "What organelle provides plant cells with turgor pressure and stores water and waste?",
+      "options": [
+        "Cell Wall",
+        "Central Vacuole",
+        "Chloroplast",
+        "Chromatin"
+      ],
+      "correct": 1,
+      "explanation": "The large central vacuole of plant cells maintains osmotic pressure against the cell wall, providing structural support."
+    },
+    {
+      "question": "Where does cellular respiration take place in eukaryotic cells?",
+      "options": [
+        "Cytoplasm only",
+        "Mitochondria",
+        "Chloroplasts",
+        "Golgi apparatus"
+      ],
+      "correct": 1,
+      "explanation": "While glycolysis occurs in the cytoplasm, the rest of cellular respiration (Krebs cycle and oxidative phosphorylation) takes place in the mitochondria."
+    },
+    {
+      "question": "Which theory states that mitochondria and chloroplasts originated as engulfed free-living prokaryotes?",
+      "options": [
+        "Cell Theory",
+        "Endosymbiotic Theory",
+        "Gene Theory",
+        "Theory of Natural Selection"
+      ],
+      "correct": 1,
+      "explanation": "The Endosymbiotic Theory explains that these organelles evolved from symbiotic relationships between ancestral eukaryotes and engulfed aerobic and photosynthetic bacteria."
+    },
+    {
+      "question": "What cytoskeletal component is composed of tubulin and forms the mitotic spindle during cell division?",
+      "options": [
+        "Microfilaments",
+        "Intermediate filaments",
+        "Microtubules",
+        "Actin fibers"
+      ],
+      "correct": 2,
+      "explanation": "Microtubules are hollow tubulin structures that manage chromosome movement during cell division and make up cilia and flagella."
+    },
+    {
+      "question": "Prokaryotic cells differ from eukaryotic cells because prokaryotes:",
+      "options": [
+        "Lack DNA",
+        "Lack a membrane-bound nucleus",
+        "Lack ribosomes",
+        "Do not have plasma membranes"
+      ],
+      "correct": 1,
+      "explanation": "Prokaryotic cells have DNA but lack a true nucleus, keeping their genetic material in an unbound nucleoid region."
+    },
+    {
+      "question": "Which cell structure is found in plant cells but NOT in animal cells?",
+      "options": [
+        "Mitochondria",
+        "Plasma membrane",
+        "Cell wall",
+        "Ribosomes"
+      ],
+      "correct": 2,
+      "explanation": "Plant cells have a rigid outer cell wall of cellulose; animal cells have no cell wall, only a plasma membrane."
+    },
+    {
+      "question": "What matrix of glycoproteins surrounds animal cells to coordinate tissue attachments?",
+      "options": [
+        "Cell wall",
+        "Extracellular matrix",
+        "Cytoplasm",
+        "Plasmodesmata"
+      ],
+      "correct": 1,
+      "explanation": "Animal cells utilize an extracellular matrix (containing collagen) for support, signaling, and cellular adhesion."
+    },
+    {
+      "question": "What model describes the membrane as proteins floating in a lipid bilayer?",
+      "options": [
+        "Sandwich model",
+        "Fluid Mosaic Model",
+        "Lock-and-key model",
+        "Osmotic model"
+      ],
+      "correct": 1,
+      "explanation": "The Fluid Mosaic Model describes the dynamic, fluid nature of the phospholipid bilayer containing a mosaic of moving proteins."
+    },
+    {
+      "question": "Selective permeability means the cell membrane:",
+      "options": [
+        "Allows all substances to pass through",
+        "Blocks all substances",
+        "Allows only certain substances to pass through easily",
+        "Requires energy for all transport"
+      ],
+      "correct": 2,
+      "explanation": "The plasma membrane is selectively permeable, allowing hydrophobic/nonpolar molecules to pass while blocking or regulating polar/hydrophilic ones."
+    },
+    {
+      "question": "The passive transport of a solute down its concentration gradient using transport proteins is:",
+      "options": [
+        "Simple diffusion",
+        "Facilitated diffusion",
+        "Active transport",
+        "Osmosis"
+      ],
+      "correct": 1,
+      "explanation": "Facilitated diffusion is passive transport that requires channel or carrier proteins to allow polar molecules or ions to cross the hydrophobic bilayer."
+    },
+    {
+      "question": "If an animal cell is placed in a hypotonic solution, it will:",
+      "options": [
+        "Shrivel",
+        "Swell and burst (lyse)",
+        "Undergo plasmolysis",
+        "Remain unchanged"
+      ],
+      "correct": 1,
+      "explanation": "A hypotonic solution has a lower solute concentration than the cell, causing water to enter the cell by osmosis, leading to swelling and lysis."
+    },
+    {
+      "question": "Plasmolysis occurs in plant cells when they are placed in which environment?",
+      "options": [
+        "Hypotonic solution",
+        "Isotonic solution",
+        "Hypertonic solution",
+        "Pure water"
+      ],
+      "correct": 2,
+      "explanation": "In a hypertonic solution, water exits the plant vacuole, causing the plasma membrane to shrivel and pull away from the rigid cell wall (plasmolysis)."
+    },
+    {
+      "question": "Active transport is characterized by:",
+      "options": [
+        "Movement of solutes down their gradient",
+        "Solutes moving against their concentration gradient using ATP",
+        "No protein involvement",
+        "Requirement of water channels"
+      ],
+      "correct": 1,
+      "explanation": "Active transport requires cellular energy (usually ATP) to pump solutes 'uphill' against their concentration gradient."
+    }
+  ],
+  "Test 3": [
+    {
+      "question": "Which pump establishes electrochemical gradients in animal cells by pumping 3 Na+ out and 2 K+ in?",
+      "options": [
+        "Proton pump",
+        "Sodium-potassium pump",
+        "Calcium pump",
+        "Aquaporin channel"
+      ],
+      "correct": 1,
+      "explanation": "The Na+/K+ ATPase pump uses ATP to maintain negative resting potentials inside animal cells by pumping out 3 sodium and pumping in 2 potassium."
+    },
+    {
+      "question": "What transport mechanism uses the active transport of one solute to power the transport of another against its gradient?",
+      "options": [
+        "Simple diffusion",
+        "Exocytosis",
+        "Cotransport",
+        "Osmosis"
+      ],
+      "correct": 2,
+      "explanation": "Cotransport couples the downhill flow of a primary solute (like H+) with the uphill transport of a secondary solute (like sucrose)."
+    },
+    {
+      "question": "The cellular uptake of large macromolecules or fluid droplets inside membrane vesicles is:",
+      "options": [
+        "Exocytosis",
+        "Endocytosis",
+        "Facilitated diffusion",
+        "Chemiosmosis"
+      ],
+      "correct": 1,
+      "explanation": "Endocytosis is the general term for bulk uptake of materials by folding the cell membrane inward into vesicles."
+    },
+    {
+      "question": "Which endocytosis pathway is highly selective, triggered by ligands binding to membrane receptors?",
+      "options": [
+        "Phagocytosis",
+        "Pinocytosis",
+        "Receptor-mediated endocytosis",
+        "Simple diffusion"
+      ],
+      "correct": 2,
+      "explanation": "Receptor-mediated endocytosis binds specific target molecules to surface receptors, triggering rapid clathrin-coated vesicle formation."
+    },
+    {
+      "question": "What pathway refers to the release of vesicle cargo outside the cell by fusing with the plasma membrane?",
+      "options": [
+        "Endocytosis",
+        "Exocytosis",
+        "Phagocytosis",
+        "Cotransport"
+      ],
+      "correct": 1,
+      "explanation": "Exocytosis is the process of vesicle fusion with the cell membrane to discharge contents into the extracellular space."
+    },
+    {
+      "question": "The first law of thermodynamics states that:",
+      "options": [
+        "Entropy in the universe is always increasing",
+        "Energy cannot be created or destroyed, only transformed",
+        "Biological systems violate energy conservation",
+        "Heat is the highest quality energy"
+      ],
+      "correct": 1,
+      "explanation": "The first law establishes that energy cannot be created or destroyed; all energy changes represent transformations from one form to another."
+    },
+    {
+      "question": "An exergonic reaction is defined as a reaction that:",
+      "options": [
+        "Absorbs free energy and is non-spontaneous",
+        "Releases free energy and is spontaneous",
+        "Does not change free energy",
+        "Requires enzyme activation only"
+      ],
+      "correct": 1,
+      "explanation": "Exergonic reactions have a negative change in free energy ($\\Delta G < 0$) and occur spontaneously, releasing energy."
+    },
+    {
+      "question": "How does the cell store and transfer energy for immediate use?",
+      "options": [
+        "By synthesizing glucose",
+        "By storing glycogen",
+        "By using ATP",
+        "By storing fat in adipose tissue"
+      ],
+      "correct": 2,
+      "explanation": "ATP (adenosine triphosphate) acts as the cell's energy currency, storing chemical energy in its high-energy phosphate bonds."
+    },
+    {
+      "question": "What are the components of an ATP molecule?",
+      "options": [
+        "Deoxyribose, three phosphates, thymine",
+        "Ribose, three phosphates, adenine",
+        "Glycerol, three fatty acids",
+        "Amino acid, phosphate, nitrogen"
+      ],
+      "correct": 1,
+      "explanation": "ATP is composed of a ribose sugar, the nitrogenous base adenine, and three phosphate groups."
+    },
+    {
+      "question": "Where does glycolysis occur in a cell?",
+      "options": [
+        "Mitochondrial matrix",
+        "Mitochondrial cristae",
+        "Cytoplasm",
+        "Chloroplast stroma"
+      ],
+      "correct": 2,
+      "explanation": "Glycolysis is the anaerobic process that breaks down glucose in the cytoplasm of the cell."
+    },
+    {
+      "question": "In glycolysis, glucose is split into two 3-carbon molecules called:",
+      "options": [
+        "Acetyl CoA",
+        "Pyruvate",
+        "G3P",
+        "Citrate"
+      ],
+      "correct": 1,
+      "explanation": "Glucose is cleaved during glycolysis to yield two molecules of pyruvate."
+    },
+    {
+      "question": "What is the net yield of ATP and NADH per glucose molecule in glycolysis?",
+      "options": [
+        "4 ATP, 2 NADH",
+        "2 ATP, 2 NADH",
+        "2 ATP, 4 NADH",
+        "36 ATP, 10 NADH"
+      ],
+      "correct": 1,
+      "explanation": "Glycolysis makes 4 ATP but uses 2, resulting in a net yield of 2 ATP and 2 NADH per glucose."
+    },
+    {
+      "question": "What oxidation step connects glycolysis in the cytoplasm to the Krebs cycle in the mitochondria?",
+      "options": [
+        "Oxidative phosphorylation",
+        "Pyruvate oxidation to Acetyl CoA",
+        "Lactic acid fermentation",
+        "The Calvin Cycle"
+      ],
+      "correct": 1,
+      "explanation": "Pyruvate oxidation converts 3-carbon pyruvate into 2-carbon Acetyl CoA in the mitochondrial matrix, producing $CO_2$ and NADH."
+    },
+    {
+      "question": "Where does the Krebs Cycle (Citric Acid Cycle) take place?",
+      "options": [
+        "Mitochondrial matrix",
+        "Inner mitochondrial membrane",
+        "Mitochondrial intermembrane space",
+        "Cytoplasm"
+      ],
+      "correct": 0,
+      "explanation": "The Citric Acid Cycle occurs in the fluid mitochondrial matrix, where Acetyl CoA is fully broken down."
+    },
+    {
+      "question": "What is the main function of the Krebs Cycle?",
+      "options": [
+        "To pump protons across the cristae",
+        "To fully oxidize acetyl groups, generating CO2, ATP, NADH, and FADH2",
+        "To split water molecules",
+        "To fix carbon into G3P"
+      ],
+      "correct": 1,
+      "explanation": "The Krebs cycle harvests high-energy electrons from acetyl groups, transferring them to electron carriers (NADH, $FADH_2$) and releasing $CO_2$ as waste."
+    },
+    {
+      "question": "Which electron carriers donate electrons to the mitochondrial Electron Transport Chain?",
+      "options": [
+        "ATP and ADP",
+        "NADH and FADH2",
+        "NADPH and NAD+",
+        "Water and Oxygen"
+      ],
+      "correct": 1,
+      "explanation": "NADH and $FADH_2$ carry high-energy electrons from glycolysis, pyruvate oxidation, and the Krebs cycle to the ETC complexes."
+    },
+    {
+      "question": "As electrons travel down the ETC, their released energy is directly used to:",
+      "options": [
+        "Phosphorylate ADP to ATP",
+        "Pump hydrogen ions (protons) into the intermembrane space",
+        "Combine hydrogen and oxygen to make water",
+        "Split glucose"
+      ],
+      "correct": 1,
+      "explanation": "The energy from falling electrons is used by ETC membrane complexes to pump $H^+$ against their gradient, building a proton-motive force."
+    },
+    {
+      "question": "What enzyme harnesses the proton gradient to synthesize ATP?",
+      "options": [
+        "Rubisco",
+        "Amylase",
+        "ATP Synthase",
+        "DNA Polymerase"
+      ],
+      "correct": 2,
+      "explanation": "ATP Synthase acts as a rotary motor, using the downhill flow of $H^+$ ions (chemiosmosis) to power the phosphorylation of ADP to ATP."
+    },
+    {
+      "question": "What process combines the electron transport chain and chemiosmosis to make ATP?",
+      "options": [
+        "Substrate-level phosphorylation",
+        "Oxidative phosphorylation",
+        "Photophosphorylation",
+        "Fermentation"
+      ],
+      "correct": 1,
+      "explanation": "Oxidative phosphorylation uses oxygen as a final electron acceptor to drive the ETC and chemiosmotic ATP synthesis via ATP synthase."
+    },
+    {
+      "question": "Lactic acid fermentation occurs in muscle cells when:",
+      "options": [
+        "Oxygen levels are high",
+        "Oxygen is depleted, and NAD+ must be regenerated to keep glycolysis running",
+        "Carbon dioxide levels drop",
+        "Glucose is completely absent"
+      ],
+      "correct": 1,
+      "explanation": "Under anaerobic conditions, NADH reduces pyruvate to lactic acid, regenerating $OH^-$/$NAD^+$ so glycolysis can continue producing ATP."
+    },
+    {
+      "question": "What are the products of alcoholic fermentation in yeast?",
+      "options": [
+        "Lactic acid and CO2",
+        "Ethanol and CO2",
+        "Acetyl CoA and NADH",
+        "Glucose and Oxygen"
+      ],
+      "correct": 1,
+      "explanation": "Yeast fermentation converts pyruvate to ethanol and carbon dioxide, recycling NAD+ in the process."
+    },
+    {
+      "question": "Organisms that are killed by the presence of oxygen are called:",
+      "options": [
+        "Obligate aerobes",
+        "Facultative anaerobes",
+        "Obligate anaerobes",
+        "Halophiles"
+      ],
+      "correct": 2,
+      "explanation": "Obligate anaerobes cannot tolerate oxygen because they lack the enzymes to neutralize toxic oxygen radicals."
+    },
+    {
+      "question": "Where do the light-dependent reactions of photosynthesis occur?",
+      "options": [
+        "Chloroplast stroma",
+        "Thylakoid membranes",
+        "Mitochondrial cristae",
+        "Plant cytoplasm"
+      ],
+      "correct": 1,
+      "explanation": "The light reactions, which capture solar energy and make ATP and NADPH, take place in the thylakoid membranes of chloroplasts."
+    },
+    {
+      "question": "During the light reactions, what molecule is split to release electrons and oxygen gas?",
+      "options": [
+        "Carbon dioxide",
+        "Glucose",
+        "Water",
+        "ATP"
+      ],
+      "correct": 2,
+      "explanation": "Photolysis of water ($H_2O$) yields electrons (replacing those lost by PSII), protons ($H^+$), and oxygen gas ($O_2$) as a waste product."
+    },
+    {
+      "question": "The light reactions yield which high-energy products to power the Calvin Cycle?",
+      "options": [
+        "ADP and NADP+",
+        "ATP and NADPH",
+        "Glucose and Oxygen",
+        "CO2 and Water"
+      ],
+      "correct": 1,
+      "explanation": "ATP and NADPH produced during light-dependent reactions are shipped to the stroma to power the Calvin cycle."
+    }
+  ],
+  "Test 4": [
+    {
+      "question": "Where does the Calvin Cycle take place in chloroplasts?",
+      "options": [
+        "Thylakoid membrane",
+        "Thylakoid lumen",
+        "Stroma",
+        "Outer membrane"
+      ],
+      "correct": 2,
+      "explanation": "The Calvin cycle (light-independent reactions) occurs in the stroma, the fluid-filled space surrounding the thylakoids."
+    },
+    {
+      "question": "Which enzyme fixes carbon dioxide to RuBP at the beginning of the Calvin Cycle?",
+      "options": [
+        "ATP Synthase",
+        "Rubisco",
+        "PEP carboxylase",
+        "Amylase"
+      ],
+      "correct": 1,
+      "explanation": "Rubisco (ribulose-1,5-bisphosphate carboxylase-oxygenase) is the enzyme responsible for initial carbon fixation in C3 plants."
+    },
+    {
+      "question": "The G3P sugar produced in the Calvin Cycle is used to build:",
+      "options": [
+        "Water",
+        "Rubisco",
+        "Glucose and other organic molecules",
+        "Chlorophyll"
+      ],
+      "correct": 2,
+      "explanation": "G3P (glyceraldehyde-3-phosphate) is a 3-carbon sugar that acts as the building block for glucose and other carbohydrates."
+    },
+    {
+      "question": "What wasteful process occurs when Rubisco binds oxygen instead of carbon dioxide?",
+      "options": [
+        "Photosynthesis",
+        "Photorespiration",
+        "Fermentation",
+        "Cellular Respiration"
+      ],
+      "correct": 1,
+      "explanation": "Photorespiration is a wasteful pathway that occurs when Rubisco fixes $O_2$ instead of $CO_2$, releasing carbon dioxide and using ATP without producing sugar."
+    },
+    {
+      "question": "How do C4 plants reduce photorespiration?",
+      "options": [
+        "By fixing carbon only at night",
+        "By physically separating carbon fixation and the Calvin cycle in different cells",
+        "By keeping stomata open all day",
+        "By eliminating Rubisco completely"
+      ],
+      "correct": 1,
+      "explanation": "C4 plants fix carbon into a 4-carbon compound in mesophyll cells, then pump it to bundle-sheath cells where Rubisco is isolated away from oxygen."
+    },
+    {
+      "question": "CAM plants adapt to hot, dry climates by:",
+      "options": [
+        "Opening stomata only at night to fix carbon, storing it as acid for daytime use",
+        "Performing photosynthesis in roots",
+        "Eliminating the Calvin cycle",
+        "Absorbing water through leaves"
+      ],
+      "correct": 0,
+      "explanation": "CAM plants open stomata at night to absorb and store $CO_2$ as organic acids, then close stomata during the day to prevent water loss while performing light reactions and the Calvin cycle."
+    },
+    {
+      "question": "Prokaryotic cell division occurs by a process called:",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Binary fission",
+        "Budding"
+      ],
+      "correct": 2,
+      "explanation": "Prokaryotes reproduce asexually via binary fission, where the single circular chromosome replicates and the cell splits into two."
+    },
+    {
+      "question": "What is the mixture of DNA and packing proteins found in eukaryotic nuclei called?",
+      "options": [
+        "Chromosomes",
+        "Chromatin",
+        "Chromatids",
+        "Centromeres"
+      ],
+      "correct": 1,
+      "explanation": "Chromatin is the relaxed, thread-like form of DNA wrapped around histone proteins before it condenses into chromosomes for division."
+    },
+    {
+      "question": "After DNA replication, each chromosome consists of two identical:",
+      "options": [
+        "Homologous chromosomes",
+        "Sister chromatids",
+        "Centromeres",
+        "Histones"
+      ],
+      "correct": 1,
+      "explanation": "Sister chromatids are identical duplicates of a chromosome, joined at the centromere, produced during the S phase of interphase."
+    },
+    {
+      "question": "The region where two sister chromatids are tightly joined is the:",
+      "options": [
+        "Centriole",
+        "Centrosome",
+        "Centromere",
+        "Kinetochore"
+      ],
+      "correct": 2,
+      "explanation": "The centromere is the narrow 'waist' of a duplicated chromosome that holds sister chromatids together."
+    },
+    {
+      "question": "A cell spends about 90% of its lifecycle in which phase?",
+      "options": [
+        "Mitosis",
+        "Cytokinesis",
+        "Interphase",
+        "Anaphase"
+      ],
+      "correct": 2,
+      "explanation": "Interphase is the non-dividing phase of the cell cycle where the cell grows, performs metabolic duties, and replicates its DNA."
+    },
+    {
+      "question": "During which subphase of interphase does DNA replication occur?",
+      "options": [
+        "G1 Phase",
+        "S Phase",
+        "G2 Phase",
+        "G0 Phase"
+      ],
+      "correct": 1,
+      "explanation": "DNA synthesis and replication occur exclusively during the S (Synthesis) Phase of interphase."
+    },
+    {
+      "question": "What phase represents cells that have permanently or temporarily exited the active cell cycle?",
+      "options": [
+        "G1 Phase",
+        "G0 Phase",
+        "G2 Phase",
+        "M Phase"
+      ],
+      "correct": 1,
+      "explanation": "The G0 Phase is a resting, non-dividing state occupied by specialized, mature cells like neurons and cardiac muscle cells."
+    },
+    {
+      "question": "Mitosis is defined as the division of the:",
+      "options": [
+        "Cytoplasm",
+        "Cell membrane",
+        "Nucleus",
+        "Ribosomes"
+      ],
+      "correct": 2,
+      "explanation": "Mitosis is strictly the division of the cell's nucleus and its genetic material; cytokinesis is the division of the cytoplasm."
+    },
+    {
+      "question": "In which phase of mitosis do chromosomes first condense and the mitotic spindle begins to form?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correct": 0,
+      "explanation": "During prophase, chromatin condenses into distinct chromosomes, the nucleolus disappears, and spindle fibers begin to emerge from centrosomes."
+    },
+    {
+      "question": "What protein complexes on centromeres act as attachment points for spindle microtubules?",
+      "options": [
+        "Centrioles",
+        "Kinetochores",
+        "Centrosomes",
+        "Histones"
+      ],
+      "correct": 1,
+      "explanation": "Kinetochores are specialized protein plaques assembled on the centromere of each sister chromatid, where spindle fibers attach."
+    },
+    {
+      "question": "During metaphase, chromosomes align along the: ",
+      "options": [
+        "Cleavage furrow",
+        "Cell plate",
+        "Metaphase plate (cell equator)",
+        "Nuclear envelope"
+      ],
+      "correct": 2,
+      "explanation": "Chromosomes line up along the metaphase plate, an imaginary plane equidistant from the spindle poles."
+    },
+    {
+      "question": "In which mitotic phase do sister chromatids separate and move toward opposite poles?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correct": 2,
+      "explanation": "Anaphase begins when the centromeric attachments holding sister chromatids together are cleaved, allowing them to be pulled to opposite ends of the cell."
+    },
+    {
+      "question": "In animal cells, cytokinesis is accomplished by the pinching of a:",
+      "options": [
+        "Cell plate",
+        "Cleavage furrow",
+        "Cell wall",
+        "Metaphase plate"
+      ],
+      "correct": 1,
+      "explanation": "A contractile ring of microfilaments pinches the animal cell membrane, forming a cleavage furrow that splits the cytoplasm."
+    },
+    {
+      "question": "How does cytokinesis differ in plant cells?",
+      "options": [
+        "A cleavage furrow forms",
+        "No cytokinesis occurs",
+        "Vesicles align at the center to form a cell plate",
+        "They pinch in two using actin"
+      ],
+      "correct": 2,
+      "explanation": "Because of their rigid walls, plant cells cannot pinch; instead, Golgi vesicles align in the middle to construct a cell plate that expands to build a new wall."
+    },
+    {
+      "question": "What proteins regulate the cell cycle by binding to Cyclin-Dependent Kinases (CDKs)?",
+      "options": [
+        "Growth factors",
+        "Cyclins",
+        "Oncogenes",
+        "Microtubules"
+      ],
+      "correct": 1,
+      "explanation": "Cyclins are regulatory proteins whose concentrations fluctuate throughout the cycle, binding and activating CDKs to push the cell past checkpoints."
+    },
+    {
+      "question": "Uncontrolled cell division due to regulatory failures is the definition of:",
+      "options": [
+        "Apoptosis",
+        "Meiosis",
+        "Cancer",
+        "Binary fission"
+      ],
+      "correct": 2,
+      "explanation": "Cancer is a disease of unregulated cell division resulting from genetic mutations in key checkpoint proteins."
+    },
+    {
+      "question": "A mass of abnormal cells that stays localized at its original site is a:",
+      "options": [
+        "Malignant tumor",
+        "Benign tumor",
+        "Metastatic cancer",
+        "Karyotype"
+      ],
+      "correct": 1,
+      "explanation": "Benign tumors contain abnormal cells that remain clumped at the original site and do not invade surrounding tissues."
+    },
+    {
+      "question": "What cell division type produces haploid gametes from diploid germ cells?",
+      "options": [
+        "Mitosis",
+        "Binary fission",
+        "Meiosis",
+        "Gametogenesis"
+      ],
+      "correct": 2,
+      "explanation": "Meiosis reduces chromosome number by half, producing four genetically unique haploid gametes (sperm/egg)."
+    },
+    {
+      "question": "A diploid cell has how many sets of chromosomes compared to a haploid cell?",
+      "options": [
+        "Half as many",
+        "Twice as many (two sets vs one set)",
+        "Three times as many",
+        "An equal number"
+      ],
+      "correct": 1,
+      "explanation": "Diploid cells ($2n$) have two complete sets of homologous chromosomes, while haploid cells ($n$) have only one set."
+    }
+  ],
+  "Test 5": [
+    {
+      "question": "During which phase of meiosis does crossing over occur?",
+      "options": [
+        "Prophase I",
+        "Metaphase I",
+        "Prophase II",
+        "Anaphase II"
+      ],
+      "correct": 0,
+      "explanation": "Crossing over\u2014the physical swapping of genetic material between non-sister chromatids of homologous pairs\u2014occurs during Prophase I of meiosis."
+    },
+    {
+      "question": "Synapsis refers to:",
+      "options": [
+        "The lining up of chromosomes on the metaphase plate",
+        "The pairing up of homologous chromosomes to form tetrads",
+        "The separation of sister chromatids",
+        "The breakdown of the nuclear membrane"
+      ],
+      "correct": 1,
+      "explanation": "Synapsis is the close pairing of homologous chromosomes gene-for-gene during Prophase I."
+    },
+    {
+      "question": "Which phase of meiosis separates homologous chromosome pairs?",
+      "options": [
+        "Anaphase I",
+        "Anaphase II",
+        "Metaphase I",
+        "Telophase II"
+      ],
+      "correct": 0,
+      "explanation": "During Anaphase I, homologous chromosomes are pulled apart to opposite poles, but sister chromatids remain attached at their centromeres."
+    },
+    {
+      "question": "Meiosis II is structurally similar to mitosis because:",
+      "options": [
+        "Homologous pairs align on the plate",
+        "Crossing over occurs again",
+        "Sister chromatids are separated during anaphase",
+        "Diploids are produced"
+      ],
+      "correct": 2,
+      "explanation": "Meiosis II separates sister chromatids, just like mitosis, but starts with haploid cells instead of diploid cells."
+    },
+    {
+      "question": "Independent assortment of chromosomes occurs during:",
+      "options": [
+        "Prophase I",
+        "Metaphase I",
+        "Metaphase II",
+        "Anaphase II"
+      ],
+      "correct": 1,
+      "explanation": "Independent assortment occurs during Metaphase I when homologous pairs align randomly at the metaphase plate, allowing parental chromosomes to segregate independently."
+    },
+    {
+      "question": "The production of gametes in animals is known as:",
+      "options": [
+        "Mitosis",
+        "Fertilization",
+        "Gametogenesis",
+        "Binary fission"
+      ],
+      "correct": 2,
+      "explanation": "Gametogenesis is the term for the biological process of haploid gamete formation through meiosis."
+    },
+    {
+      "question": "An image displaying a cell's complete set of chromosomes arranged in pairs is a:",
+      "options": [
+        "Pedigree",
+        "Punnett square",
+        "Karyotype",
+        "Linkage map"
+      ],
+      "correct": 2,
+      "explanation": "Karyotypes visually organize an organism's chromosomes by size, shape, and banding patterns to detect abnormalities."
+    },
+    {
+      "question": "What is nondisjunction?",
+      "options": [
+        "The failure of chromosomes to replicate",
+        "The failure of homologous chromosomes or sister chromatids to separate during division",
+        "The mutation of DNA bases",
+        "The process of crossing over"
+      ],
+      "correct": 1,
+      "explanation": "Nondisjunction is the failure of chromosomes to separate properly during Anaphase I or Anaphase II, leading to abnormal chromosome counts in gametes."
+    },
+    {
+      "question": "A cell that has an abnormal number of chromosomes is:",
+      "options": [
+        "Diploid",
+        "Haploid",
+        "Aneuploid",
+        "Polyploid"
+      ],
+      "correct": 2,
+      "explanation": "Aneuploidy is the condition of having an abnormal chromosome count (such as trisomy or monosomy)."
+    },
+    {
+      "question": "Who is considered the father of modern genetics?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "James Watson",
+        "Louis Pasteur"
+      ],
+      "correct": 1,
+      "explanation": "Gregor Mendel's systematic hybridization experiments with garden peas established the basic laws of genetic inheritance."
+    },
+    {
+      "question": "In genetics, a 'trait' is defined as:",
+      "options": [
+        "The genetic code of an organism",
+        "A heritable characteristic (e.g., flower color)",
+        "An enzyme catalyzing replication",
+        "A type of mutation"
+      ],
+      "correct": 1,
+      "explanation": "A trait is a specific, heritable physical or behavioral characteristic of an organism."
+    },
+    {
+      "question": "Alternative forms of a gene are called:",
+      "options": [
+        "Alleles",
+        "Genotypes",
+        "Chromatids",
+        "Phenotypes"
+      ],
+      "correct": 0,
+      "explanation": "Alleles are different nucleotide sequences of the same gene, coding for variations of a trait."
+    },
+    {
+      "question": "The physical appearance of an organism is its:",
+      "options": [
+        "Genotype",
+        "Phenotype",
+        "Allele",
+        "Karyotype"
+      ],
+      "correct": 1,
+      "explanation": "Phenotype is the expressed, observable physical traits of an organism, determined by its genotype and environment."
+    },
+    {
+      "question": "An organism is homozygous for a gene if it has:",
+      "options": [
+        "Two different alleles for that gene",
+        "Two identical alleles for that gene",
+        "Only one set of chromosomes",
+        "Mutated genes"
+      ],
+      "correct": 1,
+      "explanation": "Homozygous means containing two identical alleles for a particular locus (e.g. $YY$ or $yy$)."
+    },
+    {
+      "question": "A heterozygous individual has:",
+      "options": [
+        "Two identical alleles for a gene",
+        "Two different alleles for a gene",
+        "No alleles for that gene",
+        "Extra chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "Heterozygous means possessing two different alleles at a gene locus (e.g. $Yy$)."
+    },
+    {
+      "question": "Which allele determines the phenotype of a heterozygote, masking the other allele?",
+      "options": [
+        "Recessive allele",
+        "Dominant allele",
+        "Codominant allele",
+        "Lethal allele"
+      ],
+      "correct": 1,
+      "explanation": "The dominant allele determines the phenotype of the heterozygous individual, while the recessive allele has no observable effect."
+    },
+    {
+      "question": "Mendel's Law of Segregation states that:",
+      "options": [
+        "Genes on different chromosomes assort independently",
+        "The two alleles for a heritable character separate during gamete formation",
+        "Alleles are always linked",
+        "Recessive genes disappear"
+      ],
+      "correct": 1,
+      "explanation": "The Law of Segregation states that the two copies of a gene separate during meiosis, so each gamete receives only one allele."
+    },
+    {
+      "question": "Mendel's Law of Independent Assortment applies only to genes that:",
+      "options": [
+        "Are located close together on the same chromosome",
+        "Are located on different chromosomes or far apart on the same chromosome",
+        "Code for structural proteins",
+        "Are sex-linked"
+      ],
+      "correct": 1,
+      "explanation": "Independent assortment only occurs when genes are on separate chromosomes or far enough apart that crossing over occurs frequently."
+    },
+    {
+      "question": "A monohybrid cross tracks the inheritance of:",
+      "options": [
+        "A single character",
+        "Two characters simultaneously",
+        "All traits of an organism",
+        "Only X-linked traits"
+      ],
+      "correct": 0,
+      "explanation": "Monohybrid crosses look at a single trait (e.g., crossing purple flowers with white flowers)."
+    },
+    {
+      "question": "A dihybrid cross tracks the inheritance of:",
+      "options": [
+        "A single character",
+        "Two characters simultaneously",
+        "Mutated genes only",
+        "Identical alleles"
+      ],
+      "correct": 1,
+      "explanation": "Dihybrid crosses study the inheritance of two separate traits at the same time (e.g., seed shape and seed color)."
+    },
+    {
+      "question": "What cross determines the genotype of an individual with a dominant phenotype by breeding it with a recessive individual?",
+      "options": [
+        "Monohybrid cross",
+        "Dihybrid cross",
+        "Testcross",
+        "Self-cross"
+      ],
+      "correct": 2,
+      "explanation": "A testcross breeds the dominant-expressing individual (could be $YY$ or $Yy$) with a homozygous recessive ($yy$). If any offspring show the recessive phenotype, the unknown parent was heterozygous ($Yy$)."
+    },
+    {
+      "question": "In a cross between two heterozygotes ($Pp \\times Pp$) for purple flower color (P dominant, p recessive), what is the expected phenotypic ratio?",
+      "options": [
+        "1 purple : 1 white",
+        "3 purple : 1 white",
+        "9 purple : 3 white : 3 yellow : 1 green",
+        "All purple"
+      ],
+      "correct": 1,
+      "explanation": "A heterozygous monohybrid cross yields a $3:1$ phenotypic ratio (3 dominant purple to 1 recessive white)."
+    },
+    {
+      "question": "What is the expected phenotypic ratio of a dihybrid cross between two double-heterozygotes ($YyRr \\times YyRr$)?",
+      "options": [
+        "3:1",
+        "1:2:1",
+        "9:3:3:1",
+        "9:7"
+      ],
+      "correct": 2,
+      "explanation": "A dihybrid cross between two double-heterozygotes produces a classic $9:3:3:1$ phenotypic ratio."
+    },
+    {
+      "question": "In probability, the multiplication rule is used to find the chance of:",
+      "options": [
+        "Either one of two mutually exclusive events occurring",
+        "Two independent events occurring together in a specific combination",
+        "An event failing to occur",
+        "All recessive traits expressing"
+      ],
+      "correct": 1,
+      "explanation": "The multiplication rule states that the probability of independent events happening simultaneously is the product of their individual probabilities."
+    },
+    {
+      "question": "According to probability, the addition rule states that the probability of any one of two or more mutually exclusive events occurring is calculated by:",
+      "options": [
+        "Multiplying their individual probabilities",
+        "Adding their individual probabilities",
+        "Subtracting the smaller from the larger",
+        "Dividing their probabilities"
+      ],
+      "correct": 1,
+      "explanation": "The addition rule calculates the likelihood of mutually exclusive options (event A OR event B) by summing their individual rates."
+    }
+  ],
+  "Test 6": [
+    {
+      "question": "When a pink snapdragon is produced from crossing a red snapdragon with a white snapdragon, this exhibits:",
+      "options": [
+        "Complete dominance",
+        "Incomplete dominance",
+        "Codominance",
+        "Pleiotropy"
+      ],
+      "correct": 1,
+      "explanation": "Incomplete dominance occurs when the heterozygous phenotype is intermediate between the two homozygous parental phenotypes (a blend of red and white into pink)."
+    },
+    {
+      "question": "Codominance is characterized by:",
+      "options": [
+        "The blending of two phenotypes",
+        "Both alleles being fully and separately expressed in the heterozygote",
+        "One allele masking the other",
+        "A trait controlled by many genes"
+      ],
+      "correct": 1,
+      "explanation": "In codominance, both alleles are fully and actively expressed in the heterozygote (e.g., human AB blood type, where both A and B antigens are present)."
+    },
+    {
+      "question": "Human ABO blood groups are an example of:",
+      "options": [
+        "Incomplete dominance only",
+        "Multiple alleles and codominance",
+        "Polygenic inheritance",
+        "Pleiotropy"
+      ],
+      "correct": 1,
+      "explanation": "ABO blood groups are determined by three alleles ($I^A, I^B, i$), making it a multiple allele system, while $I^A$ and $I^B$ are codominant with each other and dominant over $i$."
+    },
+    {
+      "question": "What term describes a single gene having multiple, seemingly unrelated phenotypic effects?",
+      "options": [
+        "Polygenic inheritance",
+        "Pleiotropy",
+        "Epistasis",
+        "Codominance"
+      ],
+      "correct": 1,
+      "explanation": "Pleiotropy refers to a single gene mutation causing a cascade of multiple phenotypic symptoms (e.g., cystic fibrosis or sickle-cell anemia)."
+    },
+    {
+      "question": "Human skin color and height, which vary along a continuum, are determined by several genes acting additively. This is:",
+      "options": [
+        "Pleiotropy",
+        "Polygenic inheritance",
+        "Multiple alleles",
+        "Incomplete dominance"
+      ],
+      "correct": 1,
+      "explanation": "Polygenic inheritance occurs when multiple separate genes have an additive effect on a single quantitative phenotypic character."
+    },
+    {
+      "question": "How can environment influence phenotype?",
+      "options": [
+        "By altering the DNA sequence",
+        "By changing gene expression without changing DNA sequence (e.g., soil pH changing flower color)",
+        "Environment has no effect on phenotype",
+        "By mutating gametes only"
+      ],
+      "correct": 1,
+      "explanation": "Environmental factors (like temperature, nutrition, or acidity) can influence gene expression and modify the final phenotype without changing the genetic code itself."
+    },
+    {
+      "question": "Chromosomes that are NOT sex chromosomes are called:",
+      "options": [
+        "Autosomes",
+        "Sex chromosomes",
+        "Sister chromatids",
+        "Centromeres"
+      ],
+      "correct": 0,
+      "explanation": "Autosomes are the non-sex-determining chromosomes (chromosomes 1 to 22 in humans)."
+    },
+    {
+      "question": "In human males, sex-linked genes on the X chromosome are always expressed because:",
+      "options": [
+        "X is dominant in males",
+        "Males are hemizygous, having only one X chromosome",
+        "Y is inactive",
+        "Autosomes are absent in males"
+      ],
+      "correct": 1,
+      "explanation": "Since males have only one $X$ chromosome (XY), they have only one copy of X-linked genes (hemizygous) and will express any allele on that chromosome, dominant or recessive."
+    },
+    {
+      "question": "Which of the following is an X-linked recessive disorder?",
+      "options": [
+        "Huntington's disease",
+        "Hemophilia",
+        "Cystic fibrosis",
+        "Sickle-cell disease"
+      ],
+      "correct": 1,
+      "explanation": "Hemophilia is a classic X-linked recessive bleeding disorder caused by a lack of coagulation factors."
+    },
+    {
+      "question": "Female mammals randomly inactivate one of their two X chromosomes in each cell during development, forming a dense structure called a:",
+      "options": [
+        "Kinetochore",
+        "Centromere",
+        "Barr body",
+        "Autosome"
+      ],
+      "correct": 2,
+      "explanation": "X chromosome inactivation randomly silences one of the two female X chromosomes, condensing it into a visible Barr body inside the nuclear envelope."
+    },
+    {
+      "question": "What term describes genes that are located close together on the same chromosome and tend to be inherited together?",
+      "options": [
+        "Linked genes",
+        "Pleiotropic genes",
+        "Polygenic genes",
+        "Epistatic genes"
+      ],
+      "correct": 0,
+      "explanation": "Linked genes are located near each other on the same chromosome, meaning they do not assort independently and are usually inherited together unless separated by crossing over."
+    },
+    {
+      "question": "Linkage maps measure distance between genes in centimorgans (map units) based on:",
+      "options": [
+        "The size of the chromosome",
+        "The recombination frequency (crossing over rate)",
+        "The number of nucleotides",
+        "The speed of translation"
+      ],
+      "correct": 1,
+      "explanation": "Recombination frequency is directly proportional to the physical distance between genes on a chromosome, allowing scientists to build genetic linkage maps."
+    },
+    {
+      "question": "What is a pedigree?",
+      "options": [
+        "A map of chromosomes",
+        "A diagram showing family history and phenotypic traits across generations",
+        "A grid used to cross genes",
+        "A database of DNA sequences"
+      ],
+      "correct": 1,
+      "explanation": "A pedigree is a standardized family tree diagram that displays the distribution of heritable phenotypes across multiple generations."
+    },
+    {
+      "question": "In a pedigree, autosomal recessive disorders are characterized by: ",
+      "options": [
+        "Expressing in every generation without fail",
+        "Often skipping generations, with unaffected parents having affected children",
+        "Affecting only males",
+        "Lethality in all carriers"
+      ],
+      "correct": 1,
+      "explanation": "Autosomal recessive disorders can hide in heterozygous carriers, allowing them to skip generations and appear suddenly in the children of two carrier parents ($Aa \\times Aa \\rightarrow aa$)."
+    },
+    {
+      "question": "An individual who is heterozygous for a recessive genetic disorder but does not show symptoms is called a:",
+      "options": [
+        "Dominant homozygote",
+        "Carrier",
+        "Mutant",
+        "Pedigree root"
+      ],
+      "correct": 1,
+      "explanation": "A carrier is a heterozygote who harbors the recessive disease-causing allele but is phenotypically normal."
+    },
+    {
+      "question": "Autosomal dominant disorders are characterized by:",
+      "options": [
+        "Skipping many generations",
+        "Expressing in every generation, with affected individuals having at least one affected parent",
+        "Only affecting females",
+        "Never appearing in pedigrees"
+      ],
+      "correct": 1,
+      "explanation": "Dominant disorders require only one dominant allele, meaning they do not hide as carriers and appear in every generation; affected children must have at least one affected parent."
+    },
+    {
+      "question": "Which of the following is an autosomal dominant genetic disorder?",
+      "options": [
+        "Cystic fibrosis",
+        "Huntington's disease",
+        "Sickle-cell anemia",
+        "Tay-Sachs disease"
+      ],
+      "correct": 1,
+      "explanation": "Huntington's disease is a late-onset, degenerative neurological disorder inherited as an autosomal dominant trait."
+    },
+    {
+      "question": "The experiment that used radioactive isotopes of sulfur and phosphorus to prove DNA is the genetic material of phages was:",
+      "options": [
+        "Griffith experiment",
+        "Avery, MacLeod, McCarty experiment",
+        "Hershey-Chase experiment",
+        "Meselson-Stahl experiment"
+      ],
+      "correct": 2,
+      "explanation": "Hershey and Chase used radioactive sulfur to label phage proteins and radioactive phosphorus to label phage DNA, proving that only DNA entered host bacteria to direct viral replication."
+    },
+    {
+      "question": "Griffith's experiment with S. pneumoniae bacteria demonstrated which phenomenon?",
+      "options": [
+        "Transcription",
+        "Translation",
+        "Bacterial transformation",
+        "Semiconservative replication"
+      ],
+      "correct": 2,
+      "explanation": "Griffith discovered transformation when heat-killed pathogenic S-strain bacteria passed their virulent traits to living, non-pathogenic R-strain bacteria."
+    },
+    {
+      "question": "Who proved that DNA was the chemical agent behind Griffith's transforming principle?",
+      "options": [
+        "Hershey and Chase",
+        "Avery, MacLeod, and McCarty",
+        "Watson and Crick",
+        "Meselson and Stahl"
+      ],
+      "correct": 1,
+      "explanation": "Avery, MacLeod, and McCarty treated transforming extracts with digestive enzymes, finding that transformation only stopped when DNA was destroyed by DNase."
+    },
+    {
+      "question": "The DNA double helix is composed of two strands of nucleotides wound around each other. The side structures represent:",
+      "options": [
+        "Nitrogenous bases",
+        "Sugar-phosphate backbones",
+        "Peptide backbones",
+        "Hydrogen bonds"
+      ],
+      "correct": 1,
+      "explanation": "The outer rails of the DNA double helix are composed of repeating sugar and phosphate units linked by covalent phosphodiester bonds (sugar-phosphate backbones)."
+    },
+    {
+      "question": "According to DNA base pairing rules, Adenine always pairs with:",
+      "options": [
+        "Guanine",
+        "Thymine",
+        "Cytosine",
+        "Uracil"
+      ],
+      "correct": 1,
+      "explanation": "In DNA base pairing, Adenine hydrogen-bonds specifically with Thymine ($A-T$), and Cytosine pairs with Guanine ($C-G$)."
+    },
+    {
+      "question": "What model of DNA replication creates two molecules, each with one parental strand and one newly synthesized strand?",
+      "options": [
+        "Conservative model",
+        "Semiconservative model",
+        "Dispersive model",
+        "Transcription model"
+      ],
+      "correct": 1,
+      "explanation": "Semiconservative replication (proven by Meselson and Stahl) preserves one original template strand in each new daughter double helix."
+    },
+    {
+      "question": "Which enzyme unwinds and unzips the DNA double helix during replication?",
+      "options": [
+        "DNA Polymerase",
+        "DNA Ligase",
+        "Helicase",
+        "RNA Polymerase"
+      ],
+      "correct": 2,
+      "explanation": "Helicase travels along DNA, breaking the hydrogen bonds between nitrogenous bases to unzip the double helix and create replication forks."
+    },
+    {
+      "question": "DNA Polymerase can only synthesize new DNA strands in which direction?",
+      "options": [
+        "3' to 5'",
+        "5' to 3'",
+        "Both directions simultaneously",
+        "Any direction depending on temperature"
+      ],
+      "correct": 1,
+      "explanation": "DNA Polymerases can only attach incoming nucleotides to the free 3' hydroxyl group of an existing primer/strand, making synthesis strictly $5' \\rightarrow 3'$."
+    }
+  ],
+  "Test 7": [
+    {
+      "question": "Due to the 5' to 3' directionality constraint, the lagging strand must be synthesized in short fragments called:",
+      "options": [
+        "Okazaki fragments",
+        "Introns",
+        "Exons",
+        "Promoters"
+      ],
+      "correct": 0,
+      "explanation": "The lagging strand is synthesized discontinuously away from the replication fork in short sections called Okazaki fragments."
+    },
+    {
+      "question": "Which enzyme joins Okazaki fragments together on the lagging strand?",
+      "options": [
+        "Helicase",
+        "DNA Polymerase",
+        "DNA Ligase",
+        "RNA Primase"
+      ],
+      "correct": 2,
+      "explanation": "DNA Ligase acts as molecular glue, forming covalent phosphodiester bonds to seal nicks in the sugar-phosphate backbone between Okazaki fragments."
+    },
+    {
+      "question": "The flow of genetic info from DNA to RNA to protein is described as the:",
+      "options": [
+        "Cell Theory",
+        "Central Dogma",
+        "Semiconservative theory",
+        "Law of Segregation"
+      ],
+      "correct": 1,
+      "explanation": "The Central Dogma of molecular biology defines the directional flow of genetic information: DNA transcription $\\rightarrow$ RNA translation $\\rightarrow$ Protein."
+    },
+    {
+      "question": "What is the process of synthesizing mRNA from a DNA template?",
+      "options": [
+        "Replication",
+        "Transcription",
+        "Translation",
+        "Processing"
+      ],
+      "correct": 1,
+      "explanation": "Transcription is the synthesis of complementary RNA from a DNA template, performed by RNA polymerase."
+    },
+    {
+      "question": "What DNA sequence signals RNA polymerase where to bind and initiate transcription?",
+      "options": [
+        "Terminator",
+        "Promoter",
+        "Codon",
+        "Intron"
+      ],
+      "correct": 1,
+      "explanation": "The promoter is a specific sequence upstream of a gene where RNA polymerase binds to align itself for transcription."
+    },
+    {
+      "question": "In eukaryotic cells, pre-mRNA must be processed in the nucleus before translation. This processing includes:",
+      "options": [
+        "Removing exons and splicing introns",
+        "Adding a 5' cap, a poly-A tail, and splicing out introns",
+        "Translating codons directly",
+        "Replicating the template"
+      ],
+      "correct": 1,
+      "explanation": "Eukaryotic RNA processing adds a protective 5' methyl cap, a 3' poly-A tail, and splices out non-coding introns, leaving only coding exons."
+    },
+    {
+      "question": "The non-coding segments of pre-mRNA that are cut out during splicing are:",
+      "options": [
+        "Exons",
+        "Introns",
+        "Codons",
+        "Promoters"
+      ],
+      "correct": 1,
+      "explanation": "Introns are intervening, non-coding sequences that are removed during splicing (introns go in the trash, exons are expressed)."
+    },
+    {
+      "question": "What cell structure is the site of translation?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Lysosome"
+      ],
+      "correct": 1,
+      "explanation": "Ribosomes, made of rRNA and protein, read mRNA to link amino acids together during translation."
+    },
+    {
+      "question": "A triplet of mRNA nucleotides that codes for a specific amino acid is a:",
+      "options": [
+        "Anticodon",
+        "Codon",
+        "Promoter",
+        "Intron"
+      ],
+      "correct": 1,
+      "explanation": "Codons are mRNA nucleotide triplets that specify which amino acid is added to the growing polypeptide chain."
+    },
+    {
+      "question": "What is the start codon that initiates translation in almost all organisms?",
+      "options": [
+        "UAA",
+        "UAG",
+        "UGA",
+        "AUG"
+      ],
+      "correct": 3,
+      "explanation": "AUG is the universal start codon, coding for the amino acid methionine."
+    },
+    {
+      "question": "What molecules act as adapters during translation, carrying amino acids and matching their anticodons to mRNA codons?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "DNA Polymerase"
+      ],
+      "correct": 1,
+      "explanation": "tRNA (transfer RNA) translates the genetic code by carrying a specific amino acid at one end and pairing its anticodon with the complementary mRNA codon at the other."
+    },
+    {
+      "question": "What bond connects amino acids together during translation?",
+      "options": [
+        "Hydrogen bond",
+        "Peptide bond",
+        "Ionic bond",
+        "Glycosidic bond"
+      ],
+      "correct": 1,
+      "explanation": "The ribosome catalyzes the formation of peptide bonds between amino acids to build the polypeptide chain."
+    },
+    {
+      "question": "A mutation that changes a single nucleotide pair in DNA is a:",
+      "options": [
+        "Point mutation",
+        "Frameshift mutation",
+        "Nondisjunction",
+        "Translocation"
+      ],
+      "correct": 0,
+      "explanation": "Point mutations are gene mutations involving a single base-pair substitution, insertion, or deletion."
+    },
+    {
+      "question": "Which point mutation changes a codon to specify a different amino acid?",
+      "options": [
+        "Silent mutation",
+        "Missense mutation",
+        "Nonsense mutation",
+        "Frameshift mutation"
+      ],
+      "correct": 1,
+      "explanation": "Missense mutations change a single codon so that it codes for a different amino acid, which may alter protein function."
+    },
+    {
+      "question": "A nonsense mutation is characterized by:",
+      "options": [
+        "No change to the amino acid sequence",
+        "Changing an amino acid codon into a premature stop codon",
+        "Shifting the reading frame",
+        "Deleting entire chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "Nonsense mutations introduce a premature stop codon, terminating translation early and usually producing a truncated, non-functional protein."
+    },
+    {
+      "question": "Why do base insertions or deletions (indels) often cause frameshift mutations?",
+      "options": [
+        "They don't affect translation",
+        "They alter the triplet reading frame of mRNA, changing every amino acid downstream",
+        "They mutate the promoter only",
+        "They prevent transcription"
+      ],
+      "correct": 1,
+      "explanation": "Since mRNA is read in triplets, inserting or deleting a base (not in a multiple of three) shifts the entire reading frame, altering the downstream amino acids."
+    },
+    {
+      "question": "Physical or chemical agents that interact with DNA to cause mutations are:",
+      "options": [
+        "Carcinogens only",
+        "Mutagens",
+        "Enzymes",
+        "Toxins"
+      ],
+      "correct": 1,
+      "explanation": "Mutagens are environmental agents (such as UV light, X-rays, or reactive chemicals) that increase mutation rates in DNA."
+    },
+    {
+      "question": "What tools cut DNA molecules at highly specific nucleotide sequences?",
+      "options": [
+        "DNA Ligase",
+        "Restriction enzymes",
+        "Plasmids",
+        "Taq polymerase"
+      ],
+      "correct": 1,
+      "explanation": "Restriction enzymes are bacterial defense proteins that act as molecular scissors, cutting double-stranded DNA at specific recognition sites."
+    },
+    {
+      "question": "In genetic engineering, small circular DNA molecules from bacteria used as gene-cloning vectors are:",
+      "options": [
+        "Restriction enzymes",
+        "Plasmids",
+        "Phages",
+        "Ribosomes"
+      ],
+      "correct": 1,
+      "explanation": "Plasmids are small, circular, self-replicating extrachromosomal DNA loops commonly engineered as vectors to carry foreign genes into host bacteria."
+    },
+    {
+      "question": "DNA containing sequences combined from two different sources or species is called:",
+      "options": [
+        "Recombinant DNA",
+        "Mutant DNA",
+        "Complementary DNA",
+        "Transgenic DNA"
+      ],
+      "correct": 0,
+      "explanation": "Recombinant DNA is DNA spliced together in vitro from different origins, a core technique in biotechnology."
+    },
+    {
+      "question": "Which technique allows scientists to make millions of copies of a target DNA sequence in vitro within hours?",
+      "options": [
+        "Gel electrophoresis",
+        "PCR (Polymerase Chain Reaction)",
+        "DNA fingerprinting",
+        "Cloning"
+      ],
+      "correct": 1,
+      "explanation": "PCR is an amplification technique that uses thermal cycling to replicate target DNA sequences exponentially."
+    },
+    {
+      "question": "What heat-stable enzyme is used in PCR to synthesize DNA at high temperatures?",
+      "options": [
+        "DNA Polymerase I",
+        "Taq Polymerase",
+        "Helicase",
+        "RNA Polymerase"
+      ],
+      "correct": 1,
+      "explanation": "Taq Polymerase, harvested from the thermophilic bacterium Thermus aquaticus, remains stable and functional at the high denaturation temperatures of PCR."
+    },
+    {
+      "question": "Gel electrophoresis separates DNA fragments primarily based on their:",
+      "options": [
+        "GC content",
+        "Size and electrical charge",
+        "Shape only",
+        "Phosphate concentration"
+      ],
+      "correct": 1,
+      "explanation": "DNA has a negative charge (from phosphate backbones) and moves toward the positive electrode in gel electrophoresis; smaller fragments travel faster and further through the gel matrix."
+    },
+    {
+      "question": "What biotechnology tool allows precise, targeted editing of genomic DNA in living cells?",
+      "options": [
+        "Gel Electrophoresis",
+        "CRISPR-Cas9",
+        "DNA Microarray",
+        "Sanger sequencing"
+      ],
+      "correct": 1,
+      "explanation": "CRISPR-Cas9 uses a guide RNA to locate specific genomic sequences and cut them, allowing scientists to deactivate genes or insert edits with high accuracy."
+    },
+    {
+      "question": "Organisms that have had foreign genes inserted into their genomes are called:",
+      "options": [
+        "Clones",
+        "Transgenic organisms",
+        "Mutants",
+        "Hybrids"
+      ],
+      "correct": 1,
+      "explanation": "Transgenic organisms contain recombinant DNA integrated into their germline genomes from different species."
+    }
+  ],
+  "Test 8": [
+    {
+      "question": "Darwin's mechanism of evolutionary change is called:",
+      "options": [
+        "Lamarckian inheritance",
+        "Natural selection",
+        "Genetic drift",
+        "Artificial selection"
+      ],
+      "correct": 1,
+      "explanation": "Natural selection is Darwin's proposed process where individuals with favorable traits survive and reproduce at higher rates, adapting populations over time."
+    },
+    {
+      "question": "Lamarck's proposed mechanism of evolution was based on:",
+      "options": [
+        "Natural selection",
+        "The inheritance of acquired characteristics",
+        "Genetic drift in small populations",
+        "Catastrophes shape the Earth"
+      ],
+      "correct": 1,
+      "explanation": "Lamarck incorrectly proposed that modifications acquired during an individual's lifetime (e.g., muscle growth) could be passed to offspring."
+    },
+    {
+      "question": "An anatomical similarity between different species due to shared common ancestry is a:",
+      "options": [
+        "Homologous structure",
+        "Analogous structure",
+        "Vestigial structure",
+        "Adaptive structure"
+      ],
+      "correct": 0,
+      "explanation": "Homologous structures share anatomical patterns and developmental paths due to common ancestry, despite having different functions (e.g., human arm vs. bat wing)."
+    },
+    {
+      "question": "Anatomical structures that perform similar functions but evolved independently without common ancestry are:",
+      "options": [
+        "Homologous structures",
+        "Analogous structures",
+        "Vestigial structures",
+        "Embryonic homologies"
+      ],
+      "correct": 1,
+      "explanation": "Analogous structures represent convergent evolution, performing similar functions in response to environmental demands without common ancestral paths (e.g., bird wing vs. insect wing)."
+    },
+    {
+      "question": "What are vestigial structures?",
+      "options": [
+        "Structures that evolved recently",
+        "Remnants of structures that were functional in ancestors but are reduced or functionless in modern species",
+        "Structures useful for flight",
+        "Mutated genes"
+      ],
+      "correct": 1,
+      "explanation": "Vestigial structures are anatomical relics (like pelvic bones in whales) that are homologous to functional structures in ancestors but are no longer functional."
+    },
+    {
+      "question": "A change in allele frequencies in a population over generations is the definition of:",
+      "options": [
+        "Speciation",
+        "Microevolution",
+        "Macroevolution",
+        "Genetic drift"
+      ],
+      "correct": 1,
+      "explanation": "Microevolution is evolutionary change at its smallest scale, defined as fluctuations in allele frequencies within a population's gene pool."
+    },
+    {
+      "question": "The total collection of all alleles in a population at any one time is the:",
+      "options": [
+        "Genotype",
+        "Gene pool",
+        "Genome",
+        "Karyotype"
+      ],
+      "correct": 1,
+      "explanation": "The gene pool represents the complete set of unique alleles in an interbreeding population."
+    },
+    {
+      "question": "What equation represents the Hardy-Weinberg equilibrium for a gene with two alleles (p and q)?",
+      "options": [
+        "p + q = 1",
+        "p^2 + 2pq + q^2 = 1",
+        "p + 2pq + q = 1",
+        "p^2 + q^2 = 1"
+      ],
+      "correct": 1,
+      "explanation": "The Hardy-Weinberg algebraic equation ($p^2 + 2pq + q^2 = 1$) calculates expected genotype frequencies, where $p^2$ represents homozygous dominants, $2pq$ represents heterozygotes, and $q^2$ represents homozygous recessives."
+    },
+    {
+      "question": "Which of the following is NOT a condition for Hardy-Weinberg equilibrium?",
+      "options": [
+        "No mutations",
+        "Random mating",
+        "Extremely small population size",
+        "No natural selection"
+      ],
+      "correct": 2,
+      "explanation": "Hardy-Weinberg equilibrium requires an extremely large population size to minimize genetic drift; small populations suffer from random allele fluctuations."
+    },
+    {
+      "question": "A random fluctuation in allele frequencies due to chance events, especially in small populations, is:",
+      "options": [
+        "Natural selection",
+        "Genetic drift",
+        "Gene flow",
+        "Adaptive radiation"
+      ],
+      "correct": 1,
+      "explanation": "Genetic drift is allele frequency shifts caused by random chance events rather than natural selection."
+    },
+    {
+      "question": "What type of genetic drift occurs when a severe disaster drastically reduces population size?",
+      "options": [
+        "Founder effect",
+        "Bottleneck effect",
+        "Gene flow",
+        "Directional selection"
+      ],
+      "correct": 1,
+      "explanation": "The bottleneck effect occurs when a sudden environmental crash sweeps away most of the population, leaving a small, genetically non-representative surviving cohort."
+    },
+    {
+      "question": "The founder effect occurs when:",
+      "options": [
+        "A population reaches carrying capacity",
+        "A few individuals colonize a new isolated habitat, establishing a unique gene pool",
+        "Mutations occur in gametes",
+        "Hybrids fail to reproduce"
+      ],
+      "correct": 1,
+      "explanation": "The founder effect is genetic drift occurring when a tiny group migrates to colonize a new area, carrying only a fraction of the parent population's genetic diversity."
+    },
+    {
+      "question": "The transfer of alleles into or out of a population due to migration is:",
+      "options": [
+        "Genetic drift",
+        "Gene flow",
+        "Speciation",
+        "Founder effect"
+      ],
+      "correct": 1,
+      "explanation": "Gene flow is the migration of fertile individuals or gametes (like pollen) between populations, which reduces genetic differences between them."
+    },
+    {
+      "question": "Which type of natural selection favors individuals at one extreme of a phenotypic distribution?",
+      "options": [
+        "Stabilizing selection",
+        "Directional selection",
+        "Disruptive selection",
+        "Sexual selection"
+      ],
+      "correct": 1,
+      "explanation": "Directional selection shifts the phenotypic curve in one direction by favoring individuals with traits at one end of the spectrum (e.g., peppered moths during industrialization)."
+    },
+    {
+      "question": "Stabilizing selection is characterized by:",
+      "options": [
+        "Favoring both extreme phenotypes",
+        "Favoring intermediate phenotypes, reducing variation",
+        "Shifting the average phenotype to one end",
+        "Causing speciation"
+      ],
+      "correct": 1,
+      "explanation": "Stabilizing selection acts against extreme phenotypes, favoring intermediate variants and maintaining status quo."
+    },
+    {
+      "question": "Which selection mode favors both phenotypic extremes over intermediate forms?",
+      "options": [
+        "Directional selection",
+        "Stabilizing selection",
+        "Disruptive selection",
+        "Artificial selection"
+      ],
+      "correct": 2,
+      "explanation": "Disruptive (or diversifying) selection favors variants at both ends of the curve over average individuals, which can lead to speciation."
+    },
+    {
+      "question": "Speciation is defined as:",
+      "options": [
+        "The extinction of a species",
+        "The formation of new and distinct species in the course of evolution",
+        "The migration of populations",
+        "The accumulation of mutations"
+      ],
+      "correct": 1,
+      "explanation": "Speciation is the evolutionary process where one species splits into two or more distinct species, establishing reproductive barriers."
+    },
+    {
+      "question": "What barriers prevent species from interbreeding and producing viable, fertile offspring?",
+      "options": [
+        "Geographic barriers only",
+        "Reproductive isolating barriers",
+        "Ecological footprints",
+        "Hardy-Weinberg requirements"
+      ],
+      "correct": 1,
+      "explanation": "Reproductive isolation is maintained by biological barriers that block gene flow, keeping species separate."
+    },
+    {
+      "question": "Which reproductive barrier prevents fertilization or mating from ever occurring?",
+      "options": [
+        "Prezygotic barrier",
+        "Postzygotic barrier",
+        "Allopatric barrier",
+        "Sympatric barrier"
+      ],
+      "correct": 0,
+      "explanation": "Prezygotic barriers block the formation of a zygote (e.g., behavioral, temporal, mechanical, or gametic isolation)."
+    },
+    {
+      "question": "A postzygotic barrier is characterized by:",
+      "options": [
+        "Different mating seasons",
+        "Hybrid offspring that are sterile or inviable",
+        "Different geographic locations",
+        "Incompatible sex organs"
+      ],
+      "correct": 1,
+      "explanation": "Postzygotic barriers act after fertilization (e.g., hybrid sterility, as in mules, or hybrid inviability)."
+    },
+    {
+      "question": "What type of speciation occurs when geographic isolation physically splits a population?",
+      "options": [
+        "Sympatric speciation",
+        "Allopatric speciation",
+        "Parapatric speciation",
+        "Artificial speciation"
+      ],
+      "correct": 1,
+      "explanation": "Allopatric speciation (allo = other, patric = homeland) is driven by geographic barriers (such as a canyon or river) dividing a population and allowing reproductive barriers to evolve independently."
+    },
+    {
+      "question": "Sympatric speciation is characterized by:",
+      "options": [
+        "Physical geographic barriers splitting a population",
+        "Speciation occurring in populations living in the same geographic area",
+        "Extinction of the parent species",
+        "Artificial selection in crops"
+      ],
+      "correct": 1,
+      "explanation": "Sympatric speciation (sym = same) occurs without geographic isolation, often driven by polyploidy, habitat differentiation, or sexual selection."
+    },
+    {
+      "question": "The rapid evolution of many diversely adapted species from a common ancestor when colonizing new environments is:",
+      "options": [
+        "Convergent evolution",
+        "Adaptive radiation",
+        "Gradualism",
+        "Coevolution"
+      ],
+      "correct": 1,
+      "explanation": "Adaptive radiation occurs when colonizers exploit new, unoccupied ecological niches (e.g. Darwin's finches on the Galapagos)."
+    },
+    {
+      "question": "Unrelated species evolving similar traits because they occupy similar ecological niches is an example of:",
+      "options": [
+        "Divergent evolution",
+        "Convergent evolution",
+        "Coevolution",
+        "Adaptive radiation"
+      ],
+      "correct": 1,
+      "explanation": "Convergent evolution produces analogous traits in unrelated organisms adapting to similar environments (e.g., sharks and dolphins)."
+    },
+    {
+      "question": "What evolutionary pace model suggests long periods of stasis interrupted by brief periods of rapid change?",
+      "options": [
+        "Gradualism",
+        "Punctuated equilibrium",
+        "Catastrophism",
+        "Uniformitarianism"
+      ],
+      "correct": 1,
+      "explanation": "Punctuated equilibrium describes long periods where species undergo little change, punctuated by sudden, rapid bursts of speciation."
+    }
+  ],
+  "Test 9": [
+    {
+      "question": "What is the correct sequence of ecological levels of organization, from smallest to largest?",
+      "options": [
+        "Organism -> Community -> Population -> Ecosystem",
+        "Organism -> Population -> Community -> Ecosystem",
+        "Population -> Organism -> Community -> Ecosystem",
+        "Ecosystem -> Community -> Population -> Organism"
+      ],
+      "correct": 1,
+      "explanation": "The hierarchy ascends from individual organisms, to populations of a single species, to communities of multiple species, and finally to ecosystems including abiotic environments."
+    },
+    {
+      "question": "All the nonliving chemical and physical components of an environment are:",
+      "options": [
+        "Biotic factors",
+        "Abiotic factors",
+        "Trophic levels",
+        "Biomes"
+      ],
+      "correct": 1,
+      "explanation": "Abiotic factors are nonliving elements (such as water, temperature, wind, sunlight, and soil chemistry)."
+    },
+    {
+      "question": "What population growth model produces a J-shaped curve under ideal, unlimited resource conditions?",
+      "options": [
+        "Logistic growth",
+        "Exponential growth",
+        "Demographic transition",
+        "Carrying capacity growth"
+      ],
+      "correct": 1,
+      "explanation": "Exponential growth occurs when a population expands under ideal conditions with unlimited resources, yielding a J-shaped curve ($dN/dt = rN$)."
+    },
+    {
+      "question": "The maximum population size that a particular environment can support over time is the:",
+      "options": [
+        "Exponential limit",
+        "Carrying capacity (K)",
+        "Logarithmic limit",
+        "Ecological niche"
+      ],
+      "correct": 1,
+      "explanation": "Carrying capacity ($K$) is the maximum number of individuals of a species that an environment's resources can sustain."
+    },
+    {
+      "question": "The logistic growth model is represented by an S-shaped curve because:",
+      "options": [
+        "Growth accelerates indefinitely",
+        "Population growth rate slows as it approaches carrying capacity K",
+        "Predators eat all prey",
+        "Resources are completely unlimited"
+      ],
+      "correct": 1,
+      "explanation": "Logistic growth incorporates carrying capacity ($K$), slowing the growth rate as resource limits are approached ($dN/dt = rN(K-N)/K$)."
+    },
+    {
+      "question": "Which of the following is a density-dependent limiting factor?",
+      "options": [
+        "A forest fire",
+        "A volcanic eruption",
+        "Competition for food resources",
+        "A cold winter frost"
+      ],
+      "correct": 2,
+      "explanation": "Density-dependent factors have an increasing impact as population density rises (such as competition, disease transmission, and territoriality)."
+    },
+    {
+      "question": "Density-independent factors are characterized by:",
+      "options": [
+        "Only affecting large populations",
+        "Affecting populations regardless of their density (e.g., natural disasters)",
+        "Being caused by biotic factors only",
+        "Stabilizing carrying capacity K"
+      ],
+      "correct": 1,
+      "explanation": "Density-independent factors (like floods, droughts, or fires) affect birth/death rates regardless of population density."
+    },
+    {
+      "question": "A survivorship curve that shows high survival rates in early and middle life, followed by a rapid decline in old age (like humans), is:",
+      "options": [
+        "Type I",
+        "Type II",
+        "Type III",
+        "Type IV"
+      ],
+      "correct": 0,
+      "explanation": "Type I curves are flat in early life (representing high parental care and low infant mortality) and drop steeply at old age."
+    },
+    {
+      "question": "A Type III survivorship curve is typical of organisms that: ",
+      "options": [
+        "Provide high parental care to few offspring",
+        "Have constant mortality rates across their lifespan",
+        "Produce massive numbers of offspring with little parental care (e.g., oysters)",
+        "Live in stable carrying capacity environments"
+      ],
+      "correct": 2,
+      "explanation": "Type III curves drop sharply at the start, representing high infant mortality among organisms that spawn thousands of offspring (like trees or marine invertebrates)."
+    },
+    {
+      "question": "What is an ecological niche?",
+      "options": [
+        "The physical place where an organism lives",
+        "The sum of a species' use of biotic and abiotic resources in its environment (its role)",
+        "The speed of population growth",
+        "The trophic level of a decomposer"
+      ],
+      "correct": 1,
+      "explanation": "An ecological niche is an organism's functional role, resources, and environmental conditions required to survive and reproduce in its community."
+    },
+    {
+      "question": "The competitive exclusion principle states that:",
+      "options": [
+        "Two species competing for the exact same limiting resources cannot coexist in the same niche",
+        "Predators always exclude prey from habitats",
+        "Mutualists exclude parasites",
+        "All species can share niches indefinitely"
+      ],
+      "correct": 0,
+      "explanation": "Competitive exclusion states that two species with identical ecological niches cannot coexist; the more efficient competitor will eliminate the other."
+    },
+    {
+      "question": "What term describes a species that has an exceptionally large control over community structure relative to its abundance?",
+      "options": [
+        "Pioneer species",
+        "Dominant species",
+        "Keystone species",
+        "Invasive species"
+      ],
+      "correct": 2,
+      "explanation": "Keystone species (like sea otters) exert strong regulation on communities; their removal causes drastic shifts in the ecosystem."
+    },
+    {
+      "question": "A symbiotic relationship where both interacting species benefit is:",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Predation"
+      ],
+      "correct": 0,
+      "explanation": "Mutualism is an obligate or facultative symbiosis where both species gain advantages (e.g., mycorrhizal fungi and plant roots)."
+    },
+    {
+      "question": "In commensalism:",
+      "options": [
+        "Both species are harmed",
+        "One species benefits while the other is unaffected",
+        "One species benefits and the other is killed",
+        "One species lives inside the other's gut as a parasite"
+      ],
+      "correct": 1,
+      "explanation": "Commensalism is a relationship where one organism benefits while the host is neither helped nor harmed (e.g., barnacles on whales)."
+    },
+    {
+      "question": "Primary ecological succession begins in an area characterized by:",
+      "options": [
+        "A standing forest after a fire",
+        "An abandoned agricultural field",
+        "Lifeless areas without soil, such as volcanic rock or glacial till",
+        "A flooded wetland"
+      ],
+      "correct": 2,
+      "explanation": "Primary succession occurs on bare, soil-less substrates where life must start from scratch, requiring pioneer species to build organic soil."
+    },
+    {
+      "question": "Secondary succession differs from primary succession because secondary succession:",
+      "options": [
+        "Occurs in areas where soil remains intact after a disturbance (e.g., post-fire)",
+        "Begins on bare volcanic rock",
+        "Only involves trees",
+        "Is much slower"
+      ],
+      "correct": 0,
+      "explanation": "Secondary succession happens in cleared or disturbed areas that still have soil, allowing ecosystems to recover much faster than primary succession."
+    },
+    {
+      "question": "Organisms that harvest light or chemical energy to produce organic molecules are:",
+      "options": [
+        "Primary consumers",
+        "Producers (autotrophs)",
+        "Decomposers",
+        "Detritivores"
+      ],
+      "correct": 1,
+      "explanation": "Producers (or autotrophs) make their own organic compounds using photosynthesis or chemosynthesis, forming the base of food webs."
+    },
+    {
+      "question": "Organisms that break down dead organic matter and return inorganic nutrients to the environment are:",
+      "options": [
+        "Primary consumers",
+        "Secondary consumers",
+        "Decomposers",
+        "Autotrophs"
+      ],
+      "correct": 2,
+      "explanation": "Decomposers (fungi, bacteria) recycle matter by decomposing organic debris and releasing inorganic elements back into the soil/water."
+    },
+    {
+      "question": "The transfer of food energy up ecological levels from producers to consumers is represented by a:",
+      "options": [
+        "Food chain",
+        "Ecological niche",
+        "Niche breadth",
+        "Carbon cycle"
+      ],
+      "correct": 0,
+      "explanation": "A food chain is a linear pathway showing who eats whom in an ecosystem."
+    },
+    {
+      "question": "Why are food webs more realistic than food chains?",
+      "options": [
+        "They only include producers",
+        "They show the complex, branched network of interconnected feeding relationships in a community",
+        "They exclude decomposers",
+        "They do not show energy loss"
+      ],
+      "correct": 1,
+      "explanation": "In nature, most animals eat multiple types of food, making interconnected food webs a more accurate model than simple linear chains."
+    },
+    {
+      "question": "According to the 10 percent rule, what happens to energy transferred between trophic levels?",
+      "options": [
+        "10% is lost as heat, and 90% is stored",
+        "Only about 10% of energy at one level is transferred to the next; 90% is lost as heat and waste",
+        "100% is transferred",
+        "Energy levels double at each step"
+      ],
+      "correct": 1,
+      "explanation": "Trophic efficiency is low. On average, only 10% of chemical energy is stored in biomass at the next level; the rest is lost to respiration, waste, and heat."
+    },
+    {
+      "question": "Which ecological pyramid can NEVER be inverted?",
+      "options": [
+        "Pyramid of numbers",
+        "Biomass pyramid",
+        "Energy pyramid",
+        "Trophic pyramid"
+      ],
+      "correct": 2,
+      "explanation": "An energy pyramid must always be upright because the laws of thermodynamics dictate that energy is lost as heat at each trophic transfer; a lower level can never produce less energy than the level above it."
+    },
+    {
+      "question": "What biogeochemical cycle relies on bacteria to perform nitrogen fixation?",
+      "options": [
+        "Carbon cycle",
+        "Water cycle",
+        "Nitrogen cycle",
+        "Phosphorus cycle"
+      ],
+      "correct": 2,
+      "explanation": "The nitrogen cycle requires specialized prokaryotes to fix atmospheric $N_2$ gas into ammonium ($NH_4^+$) and nitrates ($NO_3^-$) that plants can absorb."
+    },
+    {
+      "question": "Nitrogen fixation is defined as the conversion of:",
+      "options": [
+        "Organic nitrogen into ammonia",
+        "Atmospheric nitrogen (N2) into ammonia or other usable forms by bacteria",
+        "Nitrates into nitrogen gas",
+        "Proteins into amino acids"
+      ],
+      "correct": 1,
+      "explanation": "Nitrogen fixation converts gaseous nitrogen ($N_2$) into biological ammonia ($NH_3$/$NH_4^+$), catalyzed by nitrogenase enzymes in specific soil and root-symbiotic bacteria."
+    },
+    {
+      "question": "How do photosynthesis and respiration interact in the carbon cycle?",
+      "options": [
+        "Both release carbon dioxide",
+        "Both absorb carbon dioxide",
+        "Photosynthesis absorbs CO2, while respiration releases it",
+        "They do not affect the carbon cycle"
+      ],
+      "correct": 2,
+      "explanation": "Photosynthesis pulls $CO_2$ from the air to build sugars, while cellular respiration breaks down sugars to release $CO_2$ back to the atmosphere."
+    }
+  ],
+  "Test 10": [
+    {
+      "question": "What is the study of an organism's physical structure, and the study of how those structures function?",
+      "options": [
+        "Ecology and Evolution",
+        "Anatomy and Physiology",
+        "Genetics and Genomics",
+        "Taxonomy and Phylogeny"
+      ],
+      "correct": 1,
+      "explanation": "Anatomy deals with the structural layout, and physiology deals with the dynamic biological mechanisms of functions."
+    },
+    {
+      "question": "The correct hierarchy of animal structure, from simplest to most complex, is:",
+      "options": [
+        "Cells -> Organs -> Tissues -> Organ Systems",
+        "Cells -> Tissues -> Organs -> Organ Systems",
+        "Tissues -> Cells -> Organs -> Organ Systems",
+        "Organs -> Tissues -> Cells -> Organ Systems"
+      ],
+      "correct": 1,
+      "explanation": "Animal structures are built from cells, which group into tissues, which form organs, which cooperate in organ systems."
+    },
+    {
+      "question": "Which animal tissue type covers body surfaces and lines internal cavities?",
+      "options": [
+        "Connective tissue",
+        "Epithelial tissue",
+        "Muscle tissue",
+        "Nervous tissue"
+      ],
+      "correct": 1,
+      "explanation": "Epithelial tissue sheets cover external body surfaces (epidermis) and line internal organs, forming barriers and secretory glands."
+    },
+    {
+      "question": "Which muscle tissue is striated and under voluntary control?",
+      "options": [
+        "Smooth muscle",
+        "Cardiac muscle",
+        "Skeletal muscle",
+        "Visceral muscle"
+      ],
+      "correct": 2,
+      "explanation": "Skeletal muscle fibers are striated, multinucleated cells attached to bones under conscious (voluntary) somatic motor control."
+    },
+    {
+      "question": "The steady-state physiological balance of a stable internal environment is called:",
+      "options": [
+        "Metabolism",
+        "Homeostasis",
+        "Osmosis",
+        "Tonicity"
+      ],
+      "correct": 1,
+      "explanation": "Homeostasis is the state of dynamic equilibrium where physiological systems maintain internal stability despite fluctuating external environments."
+    },
+    {
+      "question": "Negative feedback loops function to:",
+      "options": [
+        "Amplify a change in a physiological variable",
+        "Counteract a change, returning a variable toward its set point",
+        "Shut down organ systems completely",
+        "Prevent any chemical reactions"
+      ],
+      "correct": 1,
+      "explanation": "Negative feedback is the primary mechanism of homeostasis, acting like a thermostat to trigger responses that reverse deviations from the set point."
+    },
+    {
+      "question": "An example of a positive feedback loop is:",
+      "options": [
+        "Thermoregulation (sweating to cool down)",
+        "Blood glucose regulation via insulin",
+        "Labor contractions during childbirth",
+        "Osmoregulation in kidneys"
+      ],
+      "correct": 2,
+      "explanation": "Positive feedback amplifies a stimulus rather than reversing it, driving processes (like labor contractions or blood clotting cascades) to rapid completion."
+    },
+    {
+      "question": "What plant vascular tissue transports water and minerals upward from the roots?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Meristem",
+        "Parenchyma"
+      ],
+      "correct": 1,
+      "explanation": "Xylem tissue consists of dead, hollow cells (tracheids and vessel elements) that conduct water and inorganic minerals unidirectionally upward."
+    },
+    {
+      "question": "What plant vascular tissue transports sugars and organic nutrients throughout the plant?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Stomata",
+        "Sclerenchyma"
+      ],
+      "correct": 1,
+      "explanation": "Phloem tissue consists of living cells (sieve-tube elements) that transport sugars bi-directionally from source (leaves) to sink (roots, fruits) via pressure-flow translocation."
+    },
+    {
+      "question": "What process drives the movement of water up a plant's xylem, powered by evaporation from leaves?",
+      "options": [
+        "Translocation",
+        "Transpiration",
+        "Active transport",
+        "Photosynthesis"
+      ],
+      "correct": 1,
+      "explanation": "Transpiration is the evaporative water loss from leaves, which creates a negative pressure (tension) that pulls water molecules up the xylem column due to cohesion."
+    },
+    {
+      "question": "What cells regulate the opening and closing of stomata on plant leaves?",
+      "options": [
+        "Xylem cells",
+        "Guard cells",
+        "Meristem cells",
+        "Epidermal hairs"
+      ],
+      "correct": 1,
+      "explanation": "Guard cells flank each stoma, swelling with water (turgid) to open the pore, and losing water (flaccid) to close the pore during drought to prevent water loss."
+    },
+    {
+      "question": "Active cell division in plants is restricted to specialized growth regions called:",
+      "options": [
+        "Meristems",
+        "Pith",
+        "Cortex",
+        "Stomata"
+      ],
+      "correct": 0,
+      "explanation": "Meristems are plant tissues consisting of undifferentiated cells that divide continuously to generate new tissues."
+    },
+    {
+      "question": "Secondary growth in woody plants, which increases thickness and girth, is driven by:",
+      "options": [
+        "Apical meristems",
+        "Lateral meristems (vascular and cork cambium)",
+        "Leaves",
+        "Xylem vessels"
+      ],
+      "correct": 1,
+      "explanation": "Lateral meristems add secondary xylem (wood) and secondary phloem/bark, driving secondary radial growth."
+    },
+    {
+      "question": "Which plant hormone is responsible for cell elongation, phototropism, and apical dominance?",
+      "options": [
+        "Gibberellins",
+        "Auxin",
+        "Ethylene",
+        "Abscisic acid"
+      ],
+      "correct": 1,
+      "explanation": "Auxin (IAA) coordinates plant growth by stimulating cell elongation, mediating phototropic bending toward light, and suppressing lateral buds (apical dominance)."
+    },
+    {
+      "question": "What gaseous plant hormone promotes fruit ripening and leaf abscission?",
+      "options": [
+        "Auxin",
+        "Cytokinins",
+        "Ethylene",
+        "Abscisic acid"
+      ],
+      "correct": 2,
+      "explanation": "Ethylene is a volatile gas that acts as a plant hormone to accelerate ripening in fruits and signal leaf drop in autumn."
+    },
+    {
+      "question": "Which human digestive organ is the primary site of nutrient absorption?",
+      "options": [
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Pancreas"
+      ],
+      "correct": 1,
+      "explanation": "The small intestine has highly folded structures (villi and microvilli) that maximize surface area to absorb nutrients into the bloodstream."
+    },
+    {
+      "question": "The functional unit of the kidney that filters blood and forms urine is the:",
+      "options": [
+        "Nephron",
+        "Alveolus",
+        "Neuron",
+        "Capillary"
+      ],
+      "correct": 0,
+      "explanation": "The nephron is the kidney's microscopic functional structure, filtering blood plasma, reabsorbing water and solutes, and secreting metabolic wastes to form urine."
+    },
+    {
+      "question": "Where does gas exchange ($O_2$ and $CO_2$) occur inside the human lungs?",
+      "options": [
+        "Bronchi",
+        "Trachea",
+        "Alveoli",
+        "Diaphragm"
+      ],
+      "correct": 2,
+      "explanation": "Alveoli are tiny, thin-walled air sacs in the lungs where gas exchange occurs via diffusion with surrounding capillaries."
+    },
+    {
+      "question": "Which blood vessels carry blood away from the heart, and which carry blood toward the heart?",
+      "options": [
+        "Veins away, arteries toward",
+        "Arteries away, veins toward",
+        "Capillaries away, veins toward",
+        "Arteries away, capillaries toward"
+      ],
+      "correct": 1,
+      "explanation": "Arteries conduct blood away from heart ventricles under high pressure; veins return blood to heart atria under low pressure."
+    },
+    {
+      "question": "What cells produce antibodies during an adaptive immune response?",
+      "options": [
+        "T Cells",
+        "B Cells (Plasma cells)",
+        "Macrophage cells",
+        "Red blood cells"
+      ],
+      "correct": 1,
+      "explanation": "B Cells differentiate into plasma cells that synthesize and secrete highly specific Y-shaped immunoglobulins (antibodies) to target extracellular pathogens."
+    },
+    {
+      "question": "What is the single greatest human-driven threat to global biodiversity?",
+      "options": [
+        "Climate change",
+        "Introduced species",
+        "Habitat destruction",
+        "Overharvesting"
+      ],
+      "correct": 2,
+      "explanation": "Habitat destruction (deforestation, agriculture, urban sprawl) is the primary cause of species extinctions worldwide."
+    },
+    {
+      "question": "Introduced species often become invasive and outcompete native species because they:",
+      "options": [
+        "Are larger",
+        "Lack natural predators, parasites, or pathogens in their new environment",
+        "Replicate without DNA",
+        "Adapt faster"
+      ],
+      "correct": 1,
+      "explanation": "Exotic species can expand exponentially because they escape the biotic checks and balances (predators, competitors, diseases) of their native ranges."
+    },
+    {
+      "question": "The increasing concentration of non-biodegradable toxins at higher trophic levels in a food chain is:",
+      "options": [
+        "Bioremediation",
+        "Biomagnification",
+        "Eutrophication",
+        "Photorespiration"
+      ],
+      "correct": 1,
+      "explanation": "Biomagnification occurs when persistent, fat-soluble toxins accumulate in biomass, concentrating as they pass up trophic levels (highest in apex predators)."
+    },
+    {
+      "question": "What conservation method uses living organisms to detoxify polluted ecosystems?",
+      "options": [
+        "Biomagnification",
+        "Bioremediation",
+        "Protected areas",
+        "Restoration ecology"
+      ],
+      "correct": 1,
+      "explanation": "Bioremediation applies prokaryotes, fungi, or plants to break down or absorb environmental contaminants (such as cleaning up oil spills)."
+    },
+    {
+      "question": "Sustainable development is defined as:",
+      "options": [
+        "Halting all resource use",
+        "Developing technology without science",
+        "Meeting human needs while preserving ecosystems for future generations",
+        "Maximizing economic growth today"
+      ],
+      "correct": 2,
+      "explanation": "Sustainable development balances human progress and economic needs with resource conservation, guaranteeing ecological safety for the future."
+    }
+  ]
+}
